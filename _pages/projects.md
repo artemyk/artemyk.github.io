@@ -25,7 +25,7 @@ Below I give a high-level overview of my main research directions. For a complet
 
 {% include rightimg_link.html img="tm.png" href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033312" %}
 
-In the past few decades, researchers have uncovered a number of fundamental relationships between information and physics (such relationships often go by the name "thermodynamics of information").  In particular, it has been shown that any physically-embodied system that processes information (which might be anything from a biological organism to a digital computer) must pay a price in terms of physical resources such as energy, time, or memory space. 
+In the past few decades, researchers have uncovered a number of fundamental relationships between information and physics (such relationships often go by the name "thermodynamics of information").  In particular, it has been shown that any physically-embodied system that processes information -- which might be anything from a biological organism to a digital computer -- must pay a price in terms of physical resources such as energy, time, or memory space. 
 
 Along with [David Wolpert](https://davidwolpert.weebly.com/), resident faculty at the Santa Fe Institute, I have been studying the relationship between information processing and various kinds of resources, both for concrete models of computation (e.g., Turing machines and digital circuits) as well as for the kinds of general stochastic processes used in statistical physics. 
 
@@ -45,9 +45,7 @@ Selected publications:
 
 {% include rightimg_link.html img="viability.png" href="https://royalsocietypublishing.org/doi/10.1098/rsfs.2018.0041" %}
 
-I am interested in understanding how properties like "agency", "function", and "meaning" --- which are so useful for understanding the behavior of living, cognitive beings --- emerge from an underlying physical world that does not possess such properties. I use formal tools from information theory and statistical physics to approach this question from a mathematical perspective.
-
-In collaboration with [David Wolpert](https://davidwolpert.weebly.com/), I proposed to define and analyze "meaningful information" (also called "semantic information") in terms of statistical correlations which are causally necessary for a physical system to remain out of equilibrium. In future work, I hope to use similar ideas to study the origin of agency, function, and meaning in concrete models of self-maintaining nonequilibrium systems, such as simple models of protocells considered in origin of life research.
+I am interested in using formal methods to understand how properties like "agency", "function", and "meaning" --- which are so useful for understanding the behavior of living, cognitive beings --- emerge from an underlying physical world that does not possess such properties. In collaboration with [David Wolpert](https://davidwolpert.weebly.com/), I proposed to define and analyze "meaningful information" (also called "semantic information") in terms of statistical correlations which are causally necessary for a physical system to remain out of equilibrium. In the future, I hope to use similar ideas to study the origin of agency, function, and meaning in concrete models of self-maintaining nonequilibrium systems, such as simple models of protocells considered in origin of life research.
 
 
 <div class="selpub" markdown="1">
@@ -65,7 +63,7 @@ Selected publications:
 
 {% include rightimg_link.html img="ib.png" href="https://arxiv.org/abs/1808.07593" %}
 
-In recent times, new machine learning approaches (such as deep neural networks) have demonstrated revolutionary progress in solving   difficult problems. The theoretical reasons behind this recent progress are not entirely understood, although some have suggested that explanations may be provided by information theory, including the so-called "information bottleneck" principle (which states that optimal prediction of relevant information should be balanced by optimal compression of irrelevant information).
+New machine learning approaches (such as deep neural networks) have demonstrated revolutionary progress in solving difficult problems. The reasons behind this recent progress are not entirely understood from a theoretical perspective. At the same time, some have suggested that insight may be provided by information theoretic ideas, including the so-called "information bottleneck" principle, which states that optimal prediction of relevant information should be balanced by optimal compression of irrelevant information.
 
 In collaboration with [Brendan Tracey](https://scholar.google.com/citations?user=bYqAaqYAAAAJ&hl=en) and others, I have developed new techniques to accurately estimate information transfer in neural networks. We have used these techniques to train neural networks to compress away irrelevant information, as well as to analyze (and challenge) the idea that information bottleneck explains the success of recent machine learning architectures.
 
@@ -118,46 +116,3 @@ Selected publications/preprints:
 
 * A Kolchinsky and LM Rocha, "Prediction and modularity in dynamical systems", *ECAL 2011*, 2011. [arxiv](https://arxiv.org/abs/1106.3703)
 </div>
-
-<!-- 
-
-<div class="projects grid">
-
-  {% assign sorted_projects = site.projects | sort: "importance" %}
-  {% for project in sorted_projects %}
-  <div class="grid-item">
-    {% if project.redirect %}
-    <a href="{{ project.redirect }}" target="_blank">
-    {% else %}
-    <a href="{{ project.url | relative_url }}">
-    {% endif %}
-      <div class="card hoverable">
-        {% if project.img %}
-        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-        {% endif %}
-        <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-          <p class="card-text">{{ project.description }}</p>
-          <div class="row ml-1 mr-1 p-0">
-            {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {% endif %}
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </a>
-  </div>
-{% endfor %}
-
-</div>
- -->
