@@ -16,8 +16,9 @@ div.selpub {
 
 
 
-Below I give a high-level overview of my main research directions. For a complete list of publications and preprints, see my {% include scholar_link.html %} page, or download my {% include cv_link.html %}. 
+## Research
 
+Below I give a high-level overview of my main research directions. 
 
 
 
@@ -33,9 +34,9 @@ Along with [David Wolpert](https://davidwolpert.weebly.com/), resident faculty a
 Selected publications:
 
 * A Kolchinsky and DH Wolpert, Work, entropy production, and thermodynamics of information under protocol constraints, *arXiv:2008.10764*, *in submission*. [arxiv](https://arxiv.org/abs/2008.10764)
-* A Kolchinsky and DH Wolpert, Thermodynamics of Turing Machines, *Physical Review Research*, [link](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033312) [press](https://www.sciencedaily.com/releases/2020/08/200826175641.htm)
-* DH Wolpert, A Kolchinsky, JA Owen, A space–time tradeoff for implementing a function with master equation dynamics, *Nature Communications*,  2019, [link](https://www.nature.com/articles/s41467-019-09542-x) [press](https://phys.org/news/2019-04-discrete-time-physics-continuous-time-world.html)
-* A Kolchinsky and DH Wolpert, Dependence of dissipation on the initial distribution over states, *J Stat Mech*, 2017, [link](https://iopscience.iop.org/article/10.1088/1742-5468/aa7ee1) [arxiv](https://arxiv.org/abs/1607.00956)
+* A Kolchinsky and DH Wolpert, Thermodynamics of Turing Machines, *Physical Review Research*, [link](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033312), [press release](https://www.sciencedaily.com/releases/2020/08/200826175641.htm)
+* DH Wolpert, A Kolchinsky, JA Owen, A space–time tradeoff for implementing a function with master equation dynamics, *Nature Communications*,  2019, [link](https://www.nature.com/articles/s41467-019-09542-x), [press release](https://phys.org/news/2019-04-discrete-time-physics-continuous-time-world.html)
+* A Kolchinsky and DH Wolpert, Dependence of dissipation on the initial distribution over states, *J Stat Mech*, 2017, [link](https://iopscience.iop.org/article/10.1088/1742-5468/aa7ee1), [arxiv](https://arxiv.org/abs/1607.00956)
 </div>
 
 
@@ -51,7 +52,7 @@ I am interested in using formal methods to understand how properties like "agenc
 <div class="selpub" markdown="1">
 Selected publications:
 * A Kolchinsky, DH Wolpert, "Semantic information, autonomous agency and non-equilibrium statistical physics", 
-*Interface Focus*, 2018, [link](https://royalsocietypublishing.org/doi/10.1098/rsfs.2018.0041) [arxiv](https://arxiv.org/abs/1806.08053) [press](https://www.santafe.edu/news-center/news/new-definition-returns-meaning-information)
+*Interface Focus*, 2018, [link](https://royalsocietypublishing.org/doi/10.1098/rsfs.2018.0041), [arxiv](https://arxiv.org/abs/1806.08053), [press release](https://www.santafe.edu/news-center/news/new-definition-returns-meaning-information)
 </div>
 
 
@@ -91,7 +92,7 @@ For example, I have proposed a way of measuring how much of the information prov
 <div class="selpub" markdown="1">
 Selected publications:
 * A Kolchinsky, A novel approach to multivariate redundancy and synergy, *arXiv:1908.08642*, *in submission*. [link](https://arxiv.org/abs/1908.08642)
-* A Kolchinsky, B Corominas-Murtra, Decomposing information into copying versus transformation, *J of the Royal Society Interface 17 (162)*, 2020. [link](https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0623) 
+* A Kolchinsky, B Corominas-Murtra, Decomposing information into copying versus transformation, *J of the Royal Society Interface 17 (162)*, 2020. [link](https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0623), 
 [video](https://www.youtube.com/watch?v=x0pc2WVEhbo)
 </div>
 
@@ -111,8 +112,6 @@ In my dissertation, I developed techniques to analyze the notion of "modularity"
 
 <div class="selpub" markdown="1">
 Selected publications/preprints:
-
-* A Kolchinsky, AJ Gates, and LM Rocha, "Modularity and the spread of perturbations in complex dynamical systems", *Physical Review E*, 2015. [link](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.060801) [arxiv](https://arxiv.org/abs/1509.04386)
-
+* A Kolchinsky, AJ Gates, and LM Rocha, "Modularity and the spread of perturbations in complex dynamical systems", *Physical Review E*, 2015. [link](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.060801), [arxiv](https://arxiv.org/abs/1509.04386)
 * A Kolchinsky and LM Rocha, "Prediction and modularity in dynamical systems", *ECAL 2011*, 2011. [arxiv](https://arxiv.org/abs/1106.3703)
 </div>

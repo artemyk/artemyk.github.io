@@ -5,7 +5,8 @@ title: Publications
 nav: true
 order: 3
 ---
+ 
+Also see my {% include scholar_link.html %} page or {% include cv_link.html %}.
 
-For a complete list of my publications and preprints, see my {% include scholar_link.html %} page, or download my {% include cv_link.html %}. 
-
+{% include pubs.html %}
 
