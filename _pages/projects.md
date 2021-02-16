@@ -45,10 +45,10 @@ Along with [David Wolpert](https://davidwolpert.weebly.com/), resident faculty a
 <div class="selpub" markdown="1">
 Selected publications:
 
-* A Kolchinsky and DH Wolpert, Work, entropy production, and thermodynamics of information under protocol constraints, *arXiv:2008.10764*, *in submission*. [arxiv](https://arxiv.org/abs/2008.10764)
-* A Kolchinsky and DH Wolpert, Thermodynamics of Turing Machines, *Physical Review Research*, [link](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033312), [press release](https://www.sciencedaily.com/releases/2020/08/200826175641.htm)
-* DH Wolpert, A Kolchinsky, JA Owen, A space–time tradeoff for implementing a function with master equation dynamics, *Nature Communications*,  2019, [link](https://www.nature.com/articles/s41467-019-09542-x), [press release](https://phys.org/news/2019-04-discrete-time-physics-continuous-time-world.html)
-* A Kolchinsky and DH Wolpert, Dependence of dissipation on the initial distribution over states, *J Stat Mech*, 2017, [link](https://iopscience.iop.org/article/10.1088/1742-5468/aa7ee1), [arxiv](https://arxiv.org/abs/1607.00956)
+* A. Kolchinsky and D.H. Wolpert, "Work, entropy production, and thermodynamics of information under protocol constraints", *arXiv:2008.10764*, *in submission*. [arxiv](https://arxiv.org/abs/2008.10764)
+* A. Kolchinsky and D.H. Wolpert, "Thermodynamics of Turing Machines", *Physical Review Research*, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2020_Thermodynamic%20costs%20of%20Turing%20machines.pdf), [press release](https://www.sciencedaily.com/releases/2020/08/200826175641.htm)
+* D.H. Wolpert, A. Kolchinsky, JA Owen, "A space–time tradeoff for implementing a function with master equation dynamics", *Nature Communications*,  2019, [pdf](https://artemyk.github.io/assets/pdf/papers/Wolpert%20et%20al_2019_A%20space%E2%80%93time%20tradeoff%20for%20implementing%20a%20function%20with%20master%20equation%20dynamics.pdf), [press release](https://phys.org/news/2019-04-discrete-time-physics-continuous-time-world.html)
+* A. Kolchinsky and D.H. Wolpert, "Dependence of dissipation on the initial distribution over states", *J Stat Mech*, 2017, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2017_Dependence%20of%20dissipation%20on%20the%20initial%20distribution%20over%20states.pdf)
 </div>
 
 
@@ -63,8 +63,8 @@ I am interested in using formal methods to understand how properties like "agenc
 
 <div class="selpub" markdown="1">
 Selected publications:
-* A Kolchinsky, DH Wolpert, "Semantic information, autonomous agency and non-equilibrium statistical physics", 
-*Interface Focus*, 2018, [link](https://royalsocietypublishing.org/doi/10.1098/rsfs.2018.0041), [arxiv](https://arxiv.org/abs/1806.08053), [press release](https://www.santafe.edu/news-center/news/new-definition-returns-meaning-information)
+* A. Kolchinsky, D.H. Wolpert, "Semantic information, autonomous agency and non-equilibrium statistical physics", 
+*Interface Focus*, 2018, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2018_Semantic%20information,%20autonomous%20agency%20and%20non-equilibrium%20statistical%20physics.pdf), [press release](https://www.santafe.edu/news-center/news/new-definition-returns-meaning-information)
 </div>
 
 
