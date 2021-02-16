@@ -12,6 +12,12 @@ order: 2
 div.selpub {
   font-size: small;
 }
+:target:before {
+    content: "";
+    display: block;
+    height: 70px;
+    margin: -70px 0 0;
+}
 </style>
 
 
@@ -20,9 +26,15 @@ div.selpub {
 
 Below I give a high-level overview of my main research directions. 
 
+* [Thermodynamics of information](#thermo)
+* [The physics of agency, function, and meaning](#agency)
+* [Machine learning and information theory](#ml)
+* [Novel information-theoretic measures for complex systems](#info)
+* [Dissertation research](#phd)
 
+<br/>
 
-#### Thermodynamics of information
+#### Thermodynamics of information {#thermo}
 
 {% include rightimg_link.html img="tm.png" href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033312" %}
 
@@ -42,7 +54,7 @@ Selected publications:
 
 <br/>
 
-#### The physics of agency, function, and meaning
+#### The physics of agency, function, and meaning {#agency}
 
 {% include rightimg_link.html img="viability.png" href="https://royalsocietypublishing.org/doi/10.1098/rsfs.2018.0041" %}
 
@@ -60,7 +72,7 @@ Selected publications:
 
 
 
-#### Machine learning and information theory
+#### Machine learning and information theory {#ml}
 
 {% include rightimg_link.html img="ib.png" href="https://arxiv.org/abs/1808.07593" %}
 
@@ -81,7 +93,7 @@ Selected publications:
 
 <br/>
 
-#### Novel information-theoretic measures for complex systems
+#### Novel information-theoretic measures for complex systems {#info}
 
 {% include rightimg_link.html img="pid.png" href="https://arxiv.org/abs/1908.08642" %}
 
@@ -101,7 +113,7 @@ Selected publications:
 <br/>
 
 
-#### Dissertation research
+#### Dissertation research {#phd}
 
 {% include rightimg_link.html img="pm.png" href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.060801" %}
 
