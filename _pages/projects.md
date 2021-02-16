@@ -84,10 +84,10 @@ In collaboration with [Brendan Tracey](https://scholar.google.com/citations?user
 <div class="selpub" markdown="1">
 Selected publications:
 
-* A Kolchinsky, BD Tracey, S Van Kuyk, Caveats for information bottleneck in deterministic scenarios, *ICLR*, 2019,  [arxiv](https://arxiv.org/abs/1808.07593)
-* AM Saxe et al., On the information bottleneck theory of deep learning, *J Stat Mech*, 2019, [link](https://iopscience.iop.org/article/10.1088/1742-5468/ab3985)
-* A Kolchinsky, Nonlinear information bottleneck, *Entropy*, 2019, [link](https://www.mdpi.com/1099-4300/21/12/1181)
-* A Kolchinsky, BD Tracey, Estimating mixture entropy with pairwise distances, *Entropy*, [arxiv](https://arxiv.org/abs/1706.02419)
+* A. Kolchinsky, BD Tracey, S Van Kuyk, "Caveats for information bottleneck in deterministic scenarios", *ICLR*, 2019,  [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky%20et%20al_2019_Caveats%20for%20information%20bottleneck%20in%20deterministic%20scenarios.pdf)
+* A.M. Saxe et al., On the information bottleneck theory of deep learning, *J Stat Mech*, 2019, [pdf](https://artemyk.github.io/assets/pdf/papers/Saxe%20et%20al_2019_On%20the%20information%20bottleneck%20theory%20of%20deep%20learning.pdf)
+* A. Kolchinsky, "Nonlinear information bottleneck", *Entropy*, 2019, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky%20et%20al_2019_Nonlinear%20information%20bottleneck.pdf)
+* A. Kolchinsky, B.D. Tracey, "Estimating mixture entropy with pairwise distances", *Entropy*, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Tracey_2017_Estimating%20Mixture%20Entropy%20with%20Pairwise%20Distances.pdf)
 </div>
 
 
@@ -103,8 +103,8 @@ For example, I have proposed a way of measuring how much of the information prov
 
 <div class="selpub" markdown="1">
 Selected publications:
-* A Kolchinsky, A novel approach to multivariate redundancy and synergy, *arXiv:1908.08642*, *in submission*. [link](https://arxiv.org/abs/1908.08642)
-* A Kolchinsky, B Corominas-Murtra, Decomposing information into copying versus transformation, *J of the Royal Society Interface 17 (162)*, 2020. [link](https://royalsocietypublishing.org/doi/10.1098/rsif.2019.0623), 
+* A Kolchinsky, "A novel approach to multivariate redundancy and synergy", *arXiv:1908.08642*, *in submission*. [link](https://arxiv.org/abs/1908.08642)
+* A Kolchinsky, B Corominas-Murtra, "Decomposing information into copying versus transformation", *J of the Royal Society Interface 17 (162)*, 2020. [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Corominas-Murtra_2020_Decomposing%20information%20into%20copying%20versus%20transformation.pdf), 
 [video](https://www.youtube.com/watch?v=x0pc2WVEhbo)
 </div>
 
@@ -124,6 +124,6 @@ In my dissertation, I developed techniques to analyze the notion of "modularity"
 
 <div class="selpub" markdown="1">
 Selected publications/preprints:
-* A Kolchinsky, AJ Gates, and LM Rocha, "Modularity and the spread of perturbations in complex dynamical systems", *Physical Review E*, 2015. [link](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.060801), [arxiv](https://arxiv.org/abs/1509.04386)
-* A Kolchinsky and LM Rocha, "Prediction and modularity in dynamical systems", *ECAL 2011*, 2011. [arxiv](https://arxiv.org/abs/1106.3703)
+* A. Kolchinsky, A.J. Gates, and L.M. Rocha, "Modularity and the spread of perturbations in complex dynamical systems", *Physical Review E*, 2015. [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky%20et%20al_2015_Modularity%20and%20the%20spread%20of%20perturbations%20in%20complex%20dynamical%20systems.pdf)
+* A. Kolchinsky and L.M. Rocha, "Prediction and modularity in dynamical systems", *ECAL 2011*, 2011. [arxiv](https://arxiv.org/abs/1106.3703)
 </div>
