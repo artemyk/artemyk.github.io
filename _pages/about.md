@@ -23,7 +23,7 @@ div.address { font-family: sans-serif; }
 {% include scholar_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; {% include cv_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; <a href="https://github.com/artemyk">GitHub</a> 
 
 
-I recently started a postdoc at the [Universal Biology Institute](http://park.itc.u-tokyo.ac.jp/UBI/index_e.html), a theoretical biology research group at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/). Prior to this, I spent several years as a postdoc at the [Santa Fe Institute](https://santafe.edu/), an interdisciplinary research institute dedicated to the study of complex systems.
+I am currently working as a researcher at the [Universal Biology Institute](http://park.itc.u-tokyo.ac.jp/UBI/index_e.html), a theoretical biology group at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/). Prior to this, I spent several years as a postdoc at the [Santa Fe Institute](https://santafe.edu/), an interdisciplinary research institute dedicated to the study of complex systems.
 
 In my research, I use techniques from information theory and statistical physics to understand information processing in various physical and biological complex systems. For more details, see my [research](projects) page. 
 
