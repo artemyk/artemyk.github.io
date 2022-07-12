@@ -45,7 +45,7 @@ Along with [David Wolpert](https://davidwolpert.weebly.com/) at the Santa Fe Ins
 <div class="selpub" markdown="1">
 Selected publications:
 
-* A. Kolchinsky and D.H. Wolpert, "Work, entropy production, and thermodynamics of information under protocol constraints", *Physical Review X*, 2021. [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2021_PRX_Constraints.pdf)
+* A. Kolchinsky and D.H. Wolpert, "Work, entropy production, and thermodynamics of information under protocol constraints", *Physical Review X*, 2021. [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2021_PRX_Constraints.pdf), [press release](https://www.santafe.edu/news-center/news/making-entropy-production-work)
 * A. Kolchinsky and D.H. Wolpert, "Thermodynamics of Turing Machines", *Physical Review Research*, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2020_Thermodynamic%20costs%20of%20Turing%20machines.pdf), [press release](https://www.sciencedaily.com/releases/2020/08/200826175641.htm)
 * D.H. Wolpert, A. Kolchinsky, JA Owen, "A space–time tradeoff for implementing a function with master equation dynamics", *Nature Communications*,  2019, [pdf](https://artemyk.github.io/assets/pdf/papers/Wolpert%20et%20al_2019_A%20space%E2%80%93time%20tradeoff%20for%20implementing%20a%20function%20with%20master%20equation%20dynamics.pdf), [press release](https://phys.org/news/2019-04-discrete-time-physics-continuous-time-world.html)
 * A. Kolchinsky and D.H. Wolpert, "Dependence of dissipation on the initial distribution over states", *J Stat Mech*, 2017, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Wolpert_2017_Dependence%20of%20dissipation%20on%20the%20initial%20distribution%20over%20states.pdf)
