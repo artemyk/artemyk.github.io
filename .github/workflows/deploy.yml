@@ -3,9 +3,11 @@ name: deploy
 on:
   push:
     branches:
+      - master
       - source
   pull_request:
     branches:
+      - master
       - source
 
 jobs:
