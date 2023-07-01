@@ -24,7 +24,7 @@ div.selpub {
 
 ## Research
 
-Below I give a high-level overview of my main research directions. 
+*Note: Below I give a high-level overview of some of my research topics.  However, this page has not been updated since 2022. If you are interested in my more recent research, please see my  {% include scholar_link.html %} page or email me.*
 
 * [Thermodynamics of information](#thermo)
 * [The physics of agency, function, and meaning](#agency)
