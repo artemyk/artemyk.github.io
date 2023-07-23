@@ -24,7 +24,7 @@ div.selpub {
 
 ## Research
 
-*Note: Below I give a high-level overview of some of my research topics.  However, this page has not been updated since 2022. If you are interested in my more recent research, please see my  {% include scholar_link.html %} page or email me.*
+*Note: Below I give a high-level overview of some of my research topics.  However, this page has not been updated since 2021. If you are interested in my more recent research, please see my  {% include scholar_link.html %} page or email me.*
 
 * [Thermodynamics of information](#thermo)
 * [The physics of agency, function, and meaning](#agency)
@@ -87,7 +87,7 @@ Selected publications:
 * A. Kolchinsky, BD Tracey, S Van Kuyk, "Caveats for information bottleneck in deterministic scenarios", *ICLR*, 2019,  [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky%20et%20al_2019_Caveats%20for%20information%20bottleneck%20in%20deterministic%20scenarios.pdf)
 * A.M. Saxe et al., "On the information bottleneck theory of deep learning", *J Stat Mech*, 2019, [pdf](https://artemyk.github.io/assets/pdf/papers/Saxe%20et%20al_2019_On%20the%20information%20bottleneck%20theory%20of%20deep%20learning.pdf)
 * A. Kolchinsky, "Nonlinear information bottleneck", *Entropy*, 2019, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky%20et%20al_2019_Nonlinear%20information%20bottleneck.pdf)
-* A. Kolchinsky, B.D. Tracey, "Estimating mixture entropy with pairwise distances", *Entropy*, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Tracey_2017_Estimating%20Mixture%20Entropy%20with%20Pairwise%20Distances.pdf)
+* A. Kolchinsky, B.D. Tracey, "Estimating mixture entropy with pairwise distances", *Entropy*, 2017, [pdf](https://artemyk.github.io/assets/pdf/papers/Kolchinsky_Tracey_2017_Estimating%20Mixture%20Entropy%20with%20Pairwise%20Distances.pdf)
 </div>
 
 
