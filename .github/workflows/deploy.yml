@@ -1,9 +1,14 @@
 name: Deploy site
 
 on:
-  workflow_run:
-    workflows: [Check for broken links]
-    types: [completed]
+#  workflow_run:
+#    workflows: [Check for broken links]
+#    types: [completed]
+  push:
+    branches:
+      - master
+      - source
+      - main
   workflow_dispatch:
 
 permissions:
