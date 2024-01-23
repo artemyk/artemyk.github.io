@@ -18,8 +18,6 @@ social: false  # includes social icons at the bottom of the page
 div.address { font-family: sans-serif; }
 </style> 
 
-## Intro
-
 {% include scholar_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; {% include cv_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; <a href="https://github.com/artemyk">GitHub</a> 
 
 
