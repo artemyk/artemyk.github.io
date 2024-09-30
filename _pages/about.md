@@ -21,9 +21,9 @@ div.address { font-family: sans-serif; }
 {% include scholar_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; {% include cv_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; <a href="https://github.com/artemyk">GitHub</a> 
 
 
-I am a researcher interested in using information theory and statistical physics to understand information processing in various physical and biological complex systems. For more details, see my [research](projects) page. 
+Welcome to my website! In my research, I use information theory and statistical mechanics to understand information processing in physical and biological complex systems. For more details, see my [research](projects) page. 
 
-I am currently working at the [Universitat Pompeu Fabra](http://www.upf.edu). Prior to this, I spent several years as a postdoc at the [Santa Fe Institute](https://santafe.edu/), an interdisciplinary research institute dedicated to the study of complex systems, as well as the [Universal Biology Institute](http://park.itc.u-tokyo.ac.jp/UBI/index_e.html), a theoretical biology group at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/). 
+I am currently at the [Universitat Pompeu Fabra](http://www.upf.edu). Prior to this, I spent several years as a postdoc at the [Santa Fe Institute](https://santafe.edu/), as well as a year at the [Universal Biology Institute](http://park.itc.u-tokyo.ac.jp/UBI/index_e.html), a theoretical biology group at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/). 
 
 
 For a complete list of publications and preprints, see my  {% include scholar_link.html %} page or download my {% include cv_link.html %}. 
