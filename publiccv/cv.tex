@@ -1,22 +1,28 @@
 \documentclass[margin,line,centered]{res}
 \usepackage[utf8]{inputenc}
-\usepackage[unicode=true]{hyperref}
 \setlength{\parskip}{.35em}
 \newsectionwidth{7.5em}
 \usepackage{mathptmx}
 \usepackage[scaled=.90]{helvet}
 \usepackage{courier}
+\usepackage{tabto}
+
+\newcommand\talktab{\tabto{1.3cm}}
+\newcommand\yeartab{\tabto{1cm}}
+%\newcommand\talktab{ - }
 
 \makeatletter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
 \usepackage{xcolor}
 \definecolor{darkblue}{rgb}{0,0,0.5}
-\usepackage{hyperref}
+\usepackage[unicode=true]{hyperref}
 
 \hypersetup{colorlinks=true,linkcolor=darkblue,urlcolor=darkblue}
 
 \oddsidemargin -.45in
 \evensidemargin -.45in
+
+
 
 \textwidth=6.18in
 
@@ -44,7 +50,7 @@
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
-\sloppy
+%\sloppy
 
 \makeatother
 
@@ -113,109 +119,143 @@ Summer 2014 \> \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 
 %\vspace{10pt}
 \section{\textsc{Publications}}
-\input{pubs}
-
-
-\section{\textsc{Popular science}}
-\input{popular}
+{
+  \setlength{\parskip}{2pt}
+  \input{pubs}
+}
 
 
 \section{\textsc{Preprints}}
+{
+\setlength{\parskip}{2pt}
 \input{preprints}
+}
 
 \section{\textsc{Invited\\Talks}}
 
-6/2025 - \emph{CRC Colloquium}, Free University of Berlin, Berlin, Germany\\
-``Generalized free energy and excess entropy production for nonequilibrium systems''
+{\setlength{\parskip}{0pt}  
 
-5/2025 - \emph{Joint European Thermodynamics Conference}, Belgrade, Serbia\\
-``Thermodynamic inference of cycle affinities: cross-correlation asymmetry and beyond''
+9/2025 \talktab \emph{ILIAD2: ODYSSEY, conference on mathematical alignment}, Berkeley, CA, USA
 
-11/2024 - \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan\\
-``Information bounds on production in replicator systems''
+6/2025 \talktab \emph{CRC Colloquium}, Free University of Berlin, Berlin, Germany
+%\\
+%``Generalized free energy and excess entropy production for nonequilibrium systems''
 
-9/2024 - \emph{Information in Matter Colloquium}, AMOLF, Amsterdam, Netherlands\\
-``Generalized free energy for genuine nonequilibrium systems''
+5/2025 \talktab \emph{Joint European Thermodynamics Conference}, Belgrade, Serbia
+%\\
+%``Thermodynamic inference of cycle affinities: cross-correlation asymmetry and beyond''
 
-7/2024 - \emph{Physics Department Seminar}, University of Barcelona, Barcelona, Spain\\
-``Thermodynamic Bound on the Asymmetry of Cross-Correlations''
+11/2024 \talktab \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan
+%\\
+%``Information bounds on production in replicator systems''
 
-2/2024 - \emph{Seminar}, Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona, Spain\\
-``Stochastic thermodynamics: promises and challenges for studying living systems''
+9/2024 \talktab \emph{Information in Matter Colloquium}, AMOLF, Amsterdam, Netherlands
+%\\
+%``Generalized free energy for genuine nonequilibrium systems''
 
-11/2023 - \emph{Mini-workshop: Non-equilibrium thermodynamics and biology}, Biofiska Institute, Bilbao, Spain\\
-``Stochastic thermodynamics: promises and limitations for studying living matter''
+7/2024 \talktab \emph{Physics Department Seminar}, University of Barcelona, Barcelona, Spain
+%\\
+%``Thermodynamic Bound on the Asymmetry of Cross-Correlations''
 
-11/2023 - \emph{Seminar}, Basque Center for Applied Mathematics, Bilbao, Spain\\
-``Nonequilibrium thermodynamics, cross-correlations, and the isoperimetric inequality''
+2/2024 \talktab \emph{Seminar}, Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona, Spain
+%\\
+%``Stochastic thermodynamics: promises and challenges for studying living systems''
 
-7/2023 - \emph{Information Engines at the Frontiers of Nanoscale Thermodynamics}, Telluride, CO, USA\\
-``Information geometry for nonequilibrium processes''
+11/2023 \talktab \emph{Mini-workshop: Non-equilibrium thermodynamics and biology}, Biofiska Institute, Bilbao, Spain
+%\\
+%``Stochastic thermodynamics: promises and limitations for studying living matter''
 
-6/2023 - \emph{Mathematics, Physics \& Machine Learning Webinar}, Instituto Superior Técnico, Lisbon, Portugal\\
-``Information geometry for nonequilibrium processes'' (virtual)
+11/2023 \talktab \emph{Seminar}, Basque Center for Applied Mathematics, Bilbao, Spain
+%\\
+%``Nonequilibrium thermodynamics, cross-correlations, and the isoperimetric inequality''
 
-6/2023 - \emph{Conference on Decomposing Multivariate Information in Complex Systems}, Max Planck Institute for the Physics of Complex Systems, Dresden, Germany\\
-``A Novel Approach to the Partial Information Decomposition''
+7/2023 \talktab \emph{Information Engines at the Frontiers of Nanoscale Thermodynamics}, Telluride, CO, USA
+%\\
+%``Information geometry for nonequilibrium processes''
 
-9/2022 - \emph{Seminar at Dutch Institute of Emergent Phenomena}, University of Amsterdam, Netherlands\\
-``Information geometry of fluxes and forces in nonequilibrium thermodynamics'' (virtual)
+6/2023 \talktab  \emph{Webinar: Mathematics, Physics \& Machine Learning}, Instituto Superior Técnico, Lisbon, Portugal
+%\\
+%``Information geometry for nonequilibrium processes'' (virtual)
 
-8/2022 - \emph{Seminar}, Earth-Life Science Institute (ELSI), Tokyo, Japan\\
-``Thermodynamics of Darwinian evolution in molecular replicators''
+6/2023 \talktab  \emph{Conference: Decomposing Multivariate Information in Complex Systems}\\
+\talktab Max Planck Institute for the Physics of Complex Systems, Dresden, Germany
+%\\
+%``A Novel Approach to the Partial Information Decomposition''
 
-6/2022 - \emph{Evolution of complexity from the statistical physics perspective}, Yerevan Physics Institute, Armenia\\
-``Thermodynamics of Darwinian evolution'' (virtual)
+9/2022 \talktab  \emph{Seminar}, Dutch Institute of Emergent Phenomena, University of Amsterdam, Netherlands
+%\\
+%``Information geometry of fluxes and forces in nonequilibrium thermodynamics'' (virtual)
 
-6/2022 - \emph{Yagami Statistical Physics Seminar}, Keio University, Japan\\
-``Thermodynamics under protocol constraints'' (virtual)
+8/2022 \talktab  \emph{Seminar}, Earth-Life Science Institute (ELSI), Tokyo, Japan
+%\\
+%``Thermodynamics of Darwinian evolution in molecular replicators''
 
-5/2022 - \emph{Workshop on Stochastic Thermodynamics III}, University of Tokyo, Japan\\
-``The algorithmic cost of a single classical or quantum computation'' (virtual) % Invited
+6/2022 \talktab  \emph{Evolution of complexity from the statistical physics perspective}, Yerevan Physics Institute, Armenia
+%\\
+%``Thermodynamics of Darwinian evolution'' (virtual)
 
-4/2022 - \emph{Cross Labs Workshop: Is AI Extending the Mind?}, Cross Labs, Japan\\
-``Autonomous agents and semantic information'' (virtual) % Invited
+6/2022 \talktab  \emph{Yagami Statistical Physics Seminar}, Keio University, Japan
+%\\
+%``Thermodynamics under protocol constraints'' (virtual)
 
-2/2022 - \emph{Physics Department Colloquium Series}, University of Rochester, NY, USA\\
-``A thermodynamic threshold for Darwinian evolution'' (virtual) % Invited
+5/2022 \talktab  \emph{Workshop on Stochastic Thermodynamics III}, University of Tokyo, Japan
+%\\
+%``The algorithmic cost of a single classical or quantum computation'' (virtual) % Invited
 
-12/2021 - \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan\\
-``A thermodynamic threshold for Darwinian evolution'' (virtual) % Invited
+4/2022 \talktab  \emph{Cross Labs Workshop: Is AI Extending the Mind?}, Cross Labs, Japan
+%\\
+%``Autonomous agents and semantic information'' (virtual) % Invited
 
-02/2021 - \emph{Origins of Life: The Possible and the Actual} workshop, Santa Fe Institute, NM, USA\\
-``Fundamental thermodynamic constraints and trade-offs in origin of life'' %Invited
+2/2022 \talktab  \emph{Physics Department Colloquium Series}, University of Rochester, NY, USA
+%\\
+%``A thermodynamic threshold for Darwinian evolution'' (virtual) % Invited
 
-7/2020 - \emph{ICTP Seminar Series}, Abdus Salam International Center for Theoretical Physics, Trieste, Italy\\
-``Bounds on entropy production and thermodynamics of information under protocol constraints'' (virtual) % Invited
+12/2021 \talktab  \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan
+%\\
+%``A thermodynamic threshold for Darwinian evolution'' (virtual) % Invited
 
-2/2020 - \emph{AI Seminar Series}, Information Sciences Institute, Los Angeles, CA, USA\\
-``Machine Learning through the information bottleneck'' % Invited
+02/2021 \talktab  \emph{Workshop: Origins of Life: The Possible and the Actual}, Santa Fe Institute, NM, USA
+%\\
+%``Fundamental thermodynamic constraints and trade-offs in origin of life'' %Invited
 
-7/2019 - \emph{ISTI Seminar Series}, Los Alamos National Lab, Los Alamos, NM, USA\\
-``Machine Learning through the information bottleneck''  % Invited
+7/2020 \talktab  \emph{ICTP Seminar Series}, Abdus Salam International Center for Theoretical Physics, Trieste, Italy
+%\\
+%``Bounds on entropy production and thermodynamics of information under protocol constraints'' (virtual) % Invited
 
-6/2018 - \emph{Connectomics Lecture Series}, Universidad Diego Portales, Santiago, Chile\\
-``Machine learning, deep neural networks, and the brain''  % Invited
+2/2020 \talktab  \emph{AI Seminar Series}, Information Sciences Institute, Los Angeles, CA, USA
+%\\
+%``Machine Learning through the information bottleneck'' % Invited
 
-4/2018 - \emph{Meeting of the Society for the Neural Control of Movement}, Santa Fe, NM, USA\\
-``Machine learning, deep neural networks, and the brain''
+7/2019 \talktab  \emph{ISTI Seminar Series}, Los Alamos National Lab, Los Alamos, NM, USA
+%\\
+%``Machine Learning through the information bottleneck''  % Invited
 
-4/2018 - \emph{SITE Santa Fe} (contemporary art museum), Santa Fe, NM, USA\\
-``Life, entropy, and the $2^{{nd}}$ law of thermodynamics''
+6/2018 \talktab  \emph{Connectomics Lecture Series}, Universidad Diego Portales, Santiago, Chile
+%\\
+%``Machine learning, deep neural networks, and the brain''  % Invited
 
-11/2017 - Seoul National University, South Korea\\
-``Science at the Santa Fe Institute'' (w/ V. Ferdinand) % Invited
+4/2018 \talktab  \emph{Meeting of the Society for the Neural Control of Movement}, Santa Fe, NM, USA
+%\\
+%``Machine learning, deep neural networks, and the brain''
 
-8/2017 - \emph{Thermodynamics \& Computation: Towards a New Synthesis}, Santa Fe Institute, NM, USA\\
-``Statistical physics of Turing Machines'' % Invited
+11/2017 \talktab  Seoul National University, South Korea
+%\\
+%``Science at the Santa Fe Institute'' (w/ V. Ferdinand) % Invited
 
-10/2016 - \emph{Statistical Physics, Information Processing and Biology}, Santa Fe Institute, NM, USA \\
-``Dependence of dissipation on the initial distribution'' % Invited.
+8/2017 \talktab  \emph{Workshop: Thermodynamics \& Computation: Towards a New Synthesis}, Santa Fe Institute, NM, USA
+%\\
+%``Statistical physics of Turing Machines'' % Invited
 
-2/2016 - Information Sciences Institute, Los Angeles, CA, USA\\
-``Multi-scale integration \& modularity in complex systems'' % Invited
+10/2016 \talktab \emph{Statistical Physics, Information Processing and Biology}, Santa Fe Institute, NM, USA
+%\\
+%``Dependence of dissipation on the initial distribution'' % Invited.
+
+2/2016 \talktab Information Sciences Institute, Los Angeles, CA, USA
+%\\
+%``Multi-scale integration \& modularity in complex systems'' % Invited
 % Video : http://webcastermshd.isi.edu/Mediasite/Play/f413ecae075e40eaa3f6b51123178b791d
 
+}
 
 % \vspace{5pt}
 
@@ -313,8 +353,8 @@ Summer 2014 \> \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 \section{\textsc{Awards \& Fellowships}}
 %\item Honorable Mention Paper by a Contributing Student, Conference on Complex Systems 2015, Tempe, AZ
 % 2010-2015 - Affiliate of IGERT training program in ``Dynamics of brain-body-environment interaction in behavior and cognition'' 
-2022 - Marie Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01)\\
-``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
+2022 \yeartab Marie Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01)\\
+\yeartab ``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
 
 % 2012 - 2013 - Lilly Graduate Fellowship, Biocomplexity Institute, Indiana University, Bloomington, IN
 
@@ -324,24 +364,37 @@ Summer 2014 \> \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 
 \section{\textsc{Grants}}
 
-2023 - John Templeton Foundation (\#62828), \$947,926, Co-PI\\
-``Goal-directed behavior and the origin of life''
+2023 \yeartab John Templeton Foundation (\#62828), \$947,926, Co-PI\\
+\yeartab ``Goal-directed behavior and the origin of life''
 
-2022 - John Templeton Foundation (\#62417), \$627,227, Co-PI\\
-``Information architectures that enable life: the emergence of meaning''
+2022 \yeartab John Templeton Foundation (\#62417), \$627,227, Co-PI\\
+\yeartab ``Information architectures that enable life: the emergence of meaning''
 
-2019 - Foundational Questions Institute (FQXi-RFP-IPW-1912),  \$118,100, Co-Investigator (PI: David Wolpert)
-``The role of constraints in the thermodynamics of intelligence'' 
+2019 \yeartab Foundational Questions Institute (FQXi-RFP-IPW-1912),  \$118,100, Co-Investigator (PI: David Wolpert)\\
+\yeartab ``The role of constraints in the thermodynamics of intelligence'' 
 
-2016 - Foundational Questions Institute (FQXi-RFP-1622), \$128,319, Co-Investigator (PI: David Wolpert)\\
-``Observers as self-maintaining non-equilibrium systems''
+2016 \yeartab Foundational Questions Institute (FQXi-RFP-1622), \$128,319, Co-Investigator (PI: David Wolpert)\\
+\yeartab ``Observers as self-maintaining non-equilibrium systems''
 
-2016 - NSF INSPIRE (CHE-1648973), \$999,947, co-author (PI: David Wolpert)\\
-``Tradeoffs in the Thermodynamics of Computation: A New Paradigm for Biological Information-Processing''
+2016 \yeartab NSF INSPIRE (CHE-1648973), \$999,947, co-author (PI: David Wolpert)\\
+\yeartab \!``Tradeoffs in the thermodynamics of computation:\! a new paradigm for biological information-processing''
 
-2016 - NSF (1620462), \$770,000, co-author (PI: David Wolpert)\\
-``Information Networks and the Evolution of Social Organizations'' 
+2016 \yeartab NSF (1620462), \$770,000, co-author (PI: David Wolpert)\\
+\yeartab ``Information Networks and the Evolution of Social Organizations'' 
 
+
+\section{\textsc{Popular science \& outreach}}
+
+\textbf{Articles}
+
+\input{popular}
+
+\vspace{5pt}
+
+\textbf{Public talks}
+
+4/2018 \talktab  \emph{SITE Santa Fe} (contemporary art museum), Santa Fe, NM, USA\\
+\talktab Public talk on ``Life, entropy, and the $2^{{nd}}$ law of thermodynamics''
 
 
 \section{\textsc{Teaching}}
@@ -387,25 +440,41 @@ Fall 2008-Spring 2009 - ``I210 Information Infrastructure'' (Python programming)
 
 
 \section{\textsc{Advising}}
-\emph{Nicolas Freitas}, Santa Fe Institute REU Program, Santa Fe, NM, June-August, 2018 \\
-Project: ``Scaling of information in biochemical systems''
 
-\emph{Francis Cavanna}, Santa Fe Institute REU Program, Santa Fe, NM, June-August, 2017 \\
+\textbf{PhD dissertation committees}
+
+2025 \yeartab \emph{André Gomes}, PhD in Electrical and Computer Engineering, Instituto Superior Técnico, Lisbon, Portugal\\
+\yeartab Thesis: ``Advances in Partial Information Decomposition''
+
+\vspace{5pt}
+\textbf{Undergraduate projects supervised}
+
+2018 \yeartab \emph{Nicolas Freitas}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
+\yeartab Project: ``Scaling of information in biochemical systems''
+
+2017 \yeartab \emph{Francis Cavanna}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
 %\hangindent=10pt Mentored a junior from University of Dallas during a summer project through Santa Fe Institute's Research Experiences for Undergraduates program.\\
-Project: ``Investigating the relationship between criticality and Landauer costs using the Ising model''
+\yeartab Project: ``Investigating the relationship between criticality and Landauer costs using the Ising model''
 
 \section{\textsc{Academic\\service}}
 
-\textbf{Guest editor}: \emph{Entropy} special issue on ``Thermodynamics and Information Theory of Living Systems'' \href{https://www.mdpi.com/journal/entropy/special_issues/thermodynamics_living_systems}{link}
+\textbf{Guest editor}
+
+\emph{Entropy} special issue on ``Thermodynamics and Information Theory of Living Systems'' \href{https://www.mdpi.com/journal/entropy/special_issues/thermodynamics_living_systems}{link}
+
+\vspace{5pt}
 
 \textbf{Reviewer}\\
-General: \emph{Proceedings of the National Academy of Sciences}, \emph{npj Complexity}\\
-Physics: \emph{PRL}, \emph{PRX}, \emph{PRX Quantum}, \emph{PRR}, \emph{PRE}, \emph{New J of Physics}, \emph{Frontiers in Physics}, \emph{J of Physics A}, \emph{Physica A}\\
-Biology: \emph{J R Soc Proc B}, \emph{PLoS Comp Bio}, \emph{Theory in the Biosciences}\\
+General: \emph{PNAS}, \emph{Nature Communications}, \emph{npj Complexity}, \emph{Interface Focus}\\
+Physics: \emph{PRL}, \emph{PRX}, \emph{PRX Quantum}, \emph{PRR}, \emph{PRE}, \emph{New J of Physics}, \emph{Frontiers in Physics}, \emph{J of Physics A}, \emph{Physica A}, \emph{EPL}\\
+Biology: \emph{J R Soc Proc B}, \emph{PLoS Comp Bio}, \emph{Theory in the Biosciences}, \emph{BioSystems}\\
 Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, \emph{Kybernetika}, \emph{Applied Sciences}
 
-\textbf{Other}\\
-2008-2013 - Started and ran a weekly discussion group on complexity, dynamical systems, and embodiment in cognitive science, Indiana University, Bloomington, IN \href{http://apophenia.wikidot.com/}{link}
+\vspace{5pt}
+
+\textbf{Other}
+
+2008-2013 - Organized a weekly discussion group on complexity, dynamical systems, and embodiment in cognitive science, Indiana University, Bloomington, IN \href{http://apophenia.wikidot.com/}{link}
 %Co-organized discussion group about Friston's ``Free energy principle'', Instituto Gulbenkian de Ciencia, Oeiras, Portugal, Spring 2010\\
 %Volunteer organizer for Society for Psychology and Philosophy Conference, Indiana University, Bloomington, IN, 6/2009
 
@@ -420,7 +489,10 @@ Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE
 \hangindent=10pt \emph{Programming}: Python, MATLAB, C, C++, R, Java\\
  scientific computing, machine learning, web programming, databases/SQL % (Hadoop, PIG, Scala)
 
-\emph{Languages}: Fluency: English, Russian, Spanish
+\emph{Languages}: Fluent: English, Russian, Spanish. Basic: Portuguese.
+
+
+\begin{center}\vspace{2.5em}\small\textit{Last updated: \today}\end{center}
 
 \end{resume}
 \end{document}
