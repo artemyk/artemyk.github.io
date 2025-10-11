@@ -7,9 +7,14 @@
 \usepackage{courier}
 \usepackage{tabto}
 
+\newcommand{\pdflink}[1]{\href{https://artemyk.github.io/assets/pdf/papers/#1.pdf}{pdf}}
+\newcommand{\publink}[1]{\href{#1}{link}}
+
 \newcommand\bigtab{\tabto{2.4cm}}
 \newcommand\talktab{\tabto{1.3cm}}
 \newcommand\yeartab{\tabto{1.3cm}}
+\newcommand\smalltab{\tabto{.3cm}}
+\newcommand\minorhead[1]{\textbf{#1}\vspace{-3pt}}
 %\newcommand\talktab{ - }
 
 \makeatletter
@@ -53,19 +58,28 @@
 
 %\sloppy
 
+\setlength{\parskip}{2pt}  
+
 \makeatother
 
 \begin{document}
+
+
 \name{Artemy Kolchinsky \vspace*{.1in}}
+\address{
+\centerline{\href{mailto:artemyk@gmail.com}{artemyk@gmail.com} \quad \textbar\quad \href{https://artemyk.github.io}{https://artemyk.github.io} \quad \textbar\quad \href{https://scholar.google.com/citations?user=RmRwJJIAAAAJ\&sortby=pubdate}{Google Scholar}\quad \textbar\quad \href{https://github.com/artemyk/}{GitHub}}\\
+\centerline{\small\textit{Last updated: \today}}
+}
 
 \begin{resume}
 
-\section{\textsc{Contact}}
 
-\begin{ncolumn}{2}
-E-mail: \href{mailto:artemyk@gmail.com}{artemyk@gmail.com} & Google Scholar: \href{https://scholar.google.com/citations?user=RmRwJJIAAAAJ\&sortby=pubdate}{link}\\
-\hspace{7pt}  Web: \href{https://artemyk.github.io}{https://artemyk.github.io} & \hspace{30pt} GitHub: \href{https://github.com/artemyk/}{@artemyk}
-\end{ncolumn}
+% \section{\textsc{Contact}}
+
+% \begin{ncolumn}{2}
+% E-mail: \href{mailto:artemyk@gmail.com}{artemyk@gmail.com} & Google Scholar: \href{https://scholar.google.com/citations?user=RmRwJJIAAAAJ\&sortby=pubdate}{link}\\
+% \hspace{7pt}  Web: \href{https://artemyk.github.io}{https://artemyk.github.io} & \hspace{30pt} GitHub: \href{https://github.com/artemyk/}{@artemyk}
+% \end{ncolumn}
 
 \section{\textsc{Education}}
 
@@ -148,8 +162,11 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 
 \section{\textsc{Invited\\Talks}}
 
-{\setlength{\parskip}{0pt}  
-\hangindent=10cm
+{\setlength{\parskip}{1pt}  
+
+11/2025 \talktab  \emph{Kyoto Workshop on Quantum Thermodynamics \& Stochastic Thermodynamics}, Kyoto University, Japan
+
+10/2025 \talktab \emph{Autocatalysis in Reaction Networks Seminar (ARN)} (online)
 
 9/2025 \talktab \emph{ILIAD2: ODYSSEY, conference on mathematical alignment}, Berkeley, CA, USA
 
@@ -330,7 +347,7 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 % % L.M. Rocha, Sporns, O., ``Information, space and
 % % structure in the human brain resting state,'' \emph{
 % % 12th Granada Seminar on Computational and Statistical Physics} (La
-% % Herradura, Spain), 9/2012. {[}presented by Goñi, J.{]} 
+% % Herradura, Spain), 9/2012. {(}presented by Goñi, J.{)} 
 
 % 12/2011 - \emph{Network Frontier Workshop}, Northwestern University, Evanston, IL\\
 % ``Prediction and modularity in dynamical systems''
@@ -339,7 +356,7 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 % % O., Puce, A., ``Spatial organization of EEG cross-frequency
 % % coupling in a perceptual task,'' Symposium on ``Human
 % % visual perception'',\emph{ Society for Neuroscience} (Washington,
-% % DC), 11/2011. {[}presented by Parada, F.J.{]}
+% % DC), 11/2011. {(}presented by Parada, F.J.{)}
 
 % 4/2011 - %``Perception, Sensation, Information, and Ecology - Taking the animal's point of view,'' 
 % \emph{CISAB Animal Behavior Conference}, Indiana University, Bloomington, IN\\
@@ -370,7 +387,7 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 \section{\textsc{Awards \& Fellowships}}
 %\item Honorable Mention Paper by a Contributing Student, Conference on Complex Systems 2015, Tempe, AZ
 % 2010-2015 - Affiliate of IGERT training program in ``Dynamics of brain-body-environment interaction in behavior and cognition'' 
-2022 \yeartab Marie Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01)\\
+2022 \yeartab Marie Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01, \#101068029)\\
 \yeartab ``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
 
 % 2012 - 2013 - Lilly Graduate Fellowship, Biocomplexity Institute, Indiana University, Bloomington, IN
@@ -402,13 +419,13 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 
 \section{\textsc{Popular science \& outreach}}
 
-\textbf{Articles}
+\minorhead{Articles}
 
 \input{popular}
 
 \vspace{5pt}
 
-\textbf{Public talks}
+\minorhead{Public talks}
 
 4/2018 \talktab  \emph{SITE Santa Fe} (contemporary art museum), Santa Fe, NM, USA\\
 \talktab Public talk on ``Life, entropy, and the $2^{{nd}}$ law of thermodynamics''
@@ -416,16 +433,18 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 
 \section{\textsc{Teaching}}
 
-\textbf{Online courses}\\
-2018 \talktab ``Fundamentals of machine learning'' (w/ B.D. Tracey), Complexity Explorer from the Santa Fe Institute\\
-\talktab Designed and delivered a 12-part online course on basics of machine learning {[}\href{https://www.complexityexplorer.org/courses/81-fundamentals-of-machine-learning}{link}{]}
+\minorhead{Online courses}
+
+2018 \talktab ``Fundamentals of machine learning'' (w/ B.D. Tracey), Santa Fe Institute \emph{Complexity Explorer} \\
+\talktab Designed and delivered a 12-part online course on basics of machine learning {(}\href{https://www.complexityexplorer.org/courses/81-fundamentals-of-machine-learning}{link}{)}
 
 \vspace{5pt}
 
 
-\textbf{Workshops, lectures, and tutorials}\\
+\minorhead{Workshops, lectures, and tutorials}
+
 6/2019 \talktab Santa Fe Institute Complex Systems Summer School, NM, USA\\
-\talktab Two lecture series on machine learning and its research frontiers
+\talktab Two-part lecture series on machine learning and its research frontiers
 
 3/2019 \talktab Santa Fe Institute, NM, USA\\
 \talktab Tutorial on ``Machine learning with TensorFlow''
@@ -445,27 +464,28 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 
 \vspace{5pt}
 
-\textbf{Teaching Assistant at Indiana University, Bloomington, IN}\\
-Spring 2014 - ``I400 Large-scale Social Phenomena'' {[}\href{http://tuvalu.santafe.edu/~simon/page11/page11.html}{link}{]} 
+\minorhead{Teaching Assistant at Indiana University, Bloomington, IN}
 
-Spring 2011 - ``I201 Math and logic foundations of Informatics''
+Spring 2014 \bigtab ``I400 Large-scale Social Phenomena'' with Simon DeDeo {(}\href{https://web.archive.org/web/20220130165037/https://sites.santafe.edu//~simon/page11/page11.html}{link}{)} 
 
-Fall 2010 - ``I485 Biologically Inspired Computing'' {[}\href{https://web.archive.org/web/20110310071102/http://www.informatics.indiana.edu/rocha/i-bic/index.html}{link}{]}\\
-Developed and implemented a 5-part computational lab series
+Spring 2011 \bigtab ``I201 Math and logic foundations of Informatics'' with Erik Wennstrom
 
-Fall 2008-Spring 2009 - ``I210 Information Infrastructure'' (Python programming)
+Fall 2010 \bigtab ``I485 Biologically Inspired Computing'' {(}\href{https://web.archive.org/web/20110310071102/http://www.informatics.indiana.edu/rocha/i-bic/index.html}{link}{)} with Luis M. Rocha\\
+\bigtab Developed and implemented a 5-part problem set for a computational lab
 
+Fall 2008- \bigtab ``I210 Information Infrastructure'' (various instructors)\\
+\smalltab Spring 2009 \bigtab Ran lab to assist with Pyton programming course
 
 
 \section{\textsc{Advising}}
 
-\textbf{PhD dissertation committees}
+\minorhead{PhD dissertation committees}
 
 2025 \yeartab \emph{André Gomes}, PhD, Electrical \& Computer Engineering, Instituto Superior Técnico, Lisbon, Portugal\\
 \yeartab Thesis: ``Advances in Partial Information Decomposition''
 
 \vspace{5pt}
-\textbf{Undergraduate projects supervised}
+\minorhead{Undergraduate projects supervised}
 
 2018 \yeartab \emph{Nicolas Freitas}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
 \yeartab Project: ``Scaling of information in biochemical systems''
@@ -476,23 +496,50 @@ Fall 2008-Spring 2009 - ``I210 Information Infrastructure'' (Python programming)
 
 \section{\textsc{Academic\\service}}
 
-\textbf{Guest editor}
+\minorhead{Conference Organization}
+
+12/2025 \talktab Kyoto Workshop on Quantum Thermodynamics and Stochastic Thermodynamics, co-organizer\\
+\talktab Kyoto University, Japan (\href{https://indico.yukawa.kyoto-u.ac.jp/event/68/}{link})
+
+
+7/2024 \talktab Information-Driven States of Matter, co-organizer\\
+\talktab University of Rochester, NY, USA (\pdflink{Program-InfoMatterWorkshop-2024} program) \href{https://bigthink.com/13-8/a-new-model-for-defining-life-across-the-universe/}{press}
+
+
+\vspace{5pt}
+
+\minorhead{Review Panels}
+
+2025 \yeartab Interdisciplinary Assessment Board for Artificial Intelligence, Spanish Research Agency, reviewer
+
+2021- \yeartab John Templeton Foundation, external reviewer
+
+2023 \yeartab Swiss National Science Foundation, external reviewer 
+
+2020 \yeartab European Research Council (ERC), Starting Grant Panel, external reviewer
+
+\vspace{5pt}
+
+
+\minorhead{Guest editor}
 
 \emph{Entropy} special issue on ``Thermodynamics and Information Theory of Living Systems'' \href{https://www.mdpi.com/journal/entropy/special_issues/thermodynamics_living_systems}{link}
 
 \vspace{5pt}
 
-\textbf{Reviewer}\\
+\minorhead{Reviewer}
+
 General: \emph{PNAS}, \emph{Nature Communications}, \emph{npj Complexity}, \emph{Interface Focus}\\
-Physics: \emph{PRL}, \emph{PRX}, \emph{PRX Quantum}, \emph{PRR}, \emph{PRE}, \emph{New J of Physics}, \emph{Frontiers in Physics}, \emph{J of Physics A}, \emph{Physica A}, \emph{EPL}\\
-Biology: \emph{Proc. R. Soc. B}, \emph{Phil. Trans. B} \emph{PLoS Comp Bio}, \emph{Theory in the Biosciences}, \emph{BioSystems}\\
-Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, \emph{Kybernetika}, \emph{Applied Sciences}
+Physics: \emph{PRL}, \emph{PRX}, \emph{PRX Quantum}, \emph{PRR}, \emph{PRE}, \emph{NJP}, \emph{Frontiers in Physics}, \emph{J of Physics A}, \emph{Physica A}, \emph{EPL}\\
+Biology: \emph{Proc R Soc B}, \emph{Phil Trans B}, \emph{PLoS Comp Bio}, \emph{Theory in the Biosciences}, \emph{BioSystems}\\
+Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE TPAMI}, \emph{Kybernetika}, \emph{Applied Sciences}
 
 \vspace{5pt}
 
-\textbf{Other}
+\minorhead{Other}
 
-2008-2013 - Organized a weekly discussion group on complexity, dynamical systems, and embodiment in cognitive science, Indiana University, Bloomington, IN \href{http://apophenia.wikidot.com/}{link}
+2008- \talktab Organized a weekly discussion group on complexity, dynamical systems, and embodiment in\\
+\smalltab 2013 \talktab cognitive science, Indiana University, Bloomington, IN (\href{http://apophenia.wikidot.com/}{link})
 %Co-organized discussion group about Friston's ``Free energy principle'', Instituto Gulbenkian de Ciencia, Oeiras, Portugal, Spring 2010\\
 %Volunteer organizer for Society for Psychology and Philosophy Conference, Indiana University, Bloomington, IN, 6/2009
 
@@ -510,7 +557,6 @@ Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE
 \emph{Languages}: Fluent: English, Russian, Spanish. Basic: Portuguese.
 
 
-\begin{center}\vspace{2.5em}\small\textit{Last updated: \today}\end{center}
 
 \end{resume}
 \end{document}
