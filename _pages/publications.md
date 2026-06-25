@@ -15,6 +15,10 @@ Also see my {% include scholar_link.html %} page or {% include cv_link.html %}.
 
 ### Published
 
+<p style="font-size:0.9em">
+  <sup>*</sup>Equal contribution&emsp;&emsp;<sup>&dagger;</sup>Corresponding author
+</p>
+
 {% include pubs.html %}
 
 <br/>

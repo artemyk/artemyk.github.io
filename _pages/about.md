@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: croppedheadshot2.jpg
+  image: headshot3.png
   email: artemyk@gmail.com
 
 news: false  # includes a list of news items
