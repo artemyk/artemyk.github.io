@@ -9,11 +9,16 @@
 \usepackage{courier}
 \usepackage{tabto}
 
+\newcommand\sbigtab{\tabto{1.8cm}}
 \newcommand\bigtab{\tabto{2.4cm}}
 \newcommand\talktab{\tabto{1.3cm}}
 \newcommand\yeartab{\tabto{1.3cm}}
 \newcommand\smalltab{\tabto{.3cm}}
+\newcommand\vsmalltab{\tabto{.15cm}}
 \newcommand\minorhead[1]{\textbf{#1}\vspace{-3pt}}
+
+\newcommand\rldate[1]{\makebox[33pt][r]{#1}}
+
 %\newcommand\talktab{ - }
 
 \makeatletter
@@ -64,7 +69,7 @@
 \begin{document}
 
 
-\name{Artemy Kolchinsky \vspace*{.1in}}
+\name{\Large Artemy Kolchinsky \vspace*{.1in}}
 \address{
 \centerline{\href{mailto:artemyk@gmail.com}{artemyk@gmail.com} \quad \textbar\quad \href{https://artemyk.github.io}{https://artemyk.github.io} \quad \textbar\quad \href{https://orcid.org/0000-0002-3518-9208}{ORCID}\quad \textbar\quad \href{https://scholar.google.com/citations?user=RmRwJJIAAAAJ\&sortby=pubdate}{Google Scholar}\quad \textbar\quad \href{https://github.com/artemyk/}{GitHub}}\\
 \centerline{\small\textit{Last updated: \today}}
@@ -80,22 +85,19 @@
 % \hspace{7pt}  Web: \href{https://artemyk.github.io}{https://artemyk.github.io} & \hspace{30pt} GitHub: \href{https://github.com/artemyk/}{@artemyk}
 % \end{ncolumn}
 
-\section{\textsc{Education}}
+\section{\textsc{Research Profile}}
 
-\textbf{Indiana University} (Bloomington, IN, USA), 2015\\
-Ph.D. in Informatics (focus in Complex Systems), Minor in Cognitive
-Science\\
-Thesis: ``Measuring Scales: Integration and Modularity in Complex
-Systems''\\
-Committee: Luis\,M.\,Rocha\,(chair), Yong-Yeol\,Ahn, Randall\,Beer, Alessandro\,Flammini, Olaf\,Sporns
+I am a theorist working at the interface of nonequilibrium statistical physics and information theory. My work focuses on fundamental bounds,  tradeoffs, and decompositions that govern  information processing in nonequilibrium systems. I apply these ideas to understand adaptation and agency in systems ranging from molecular replicators to neural networks.
 
-\textbf{New York University} (New York, NY, USA), 2004 \\
-B.A. Magna Cum Laude, Individualized Study (concentration in Complex
-Systems)
 
-%\vspace{10pt}
 
-\section{\textsc{Academic Positions}}
+
+% My research develops statistical-physical and information-theoretic principles for adaptive information-processing systems. I study how computation, learning, agency, and function emerge in stochastic systems subject to thermodynamic and informational constraints. This program connects nonequilibrium statistical physics, information theory, cognitive science, and modern AI, with applications ranging from molecular replicators and biological organization to artificial learning systems.
+
+
+
+
+\section{\textsc{Research Positions}}
 
 % \vspace{-10pt} 
 % \begin{tabbing}
@@ -120,19 +122,103 @@ Systems)
 % 12/2015-7/2021 \bigtab  \textbf{Santa Fe Institute} (Santa Fe, NM, USA) \\
 % \bigtab Program postdoctoral fellow (with Prof.~David H. Wolpert)
 
-6/2023--Present \bigtab \textbf{Universitat Pompeu Fabra} (Barcelona, Spain)\\
-\bigtab Marie Skłodowska-Curie Postdoctoral Fellow (Host: Ricard Sol{\'e})
+% 6/2023--Present \bigtab Marie Skłodowska-Curie Postdoctoral Fellow
+% \bigtab Universitat Pompeu Fabra (Barcelona, Spain). Host: Ricard Sol{\'e}
 
-1/2022--5/2023\bigtab \textbf{University of Tokyo} (Tokyo, Japan) \\
-\bigtab Project Researcher at the Universal Biology Institute (Research supervisor: Sosuke Ito)
+% 1/2022--5/2023\bigtab Project Researcher, Universal Biology Institute
+% \bigtab University of Tokyo (Tokyo, Japan). PI: Sosuke Ito
 
-12/2015--7/2021 \bigtab  \textbf{Santa Fe Institute} (Santa Fe, NM, USA) \\
-\bigtab Program Postdoctoral Fellow (Research supervisor: David H. Wolpert)
+% 12/2015--7/2021 \bigtab Program Postdoctoral Fellow
+% \bigtab Santa Fe Institute (Santa Fe, NM, USA). PI: David H. Wolpert
 
-9/2009--8/2010\bigtab \textbf{Instituto Gulbenkian de Ciencia} (Oeiras, Portugal)\\
-%2008-2012 (summers) 
-\bigtab 
-Predoctoral Visiting Researcher (Research supervisor: Luis M. Rocha)
+% Summer 2014 \bigtab Research Intern, Data Science
+% \bigtab LinkedIn Corporation (Mountain View, CA, USA)
+
+% 9/2009--8/2010\bigtab Predoctoral Visiting Researcher
+% \bigtab Instituto Gulbenkian de Ciencia (Oeiras, Portugal). PI: Luis M. Rocha
+
+
+2023-- \sbigtab Universitat Pompeu Fabra (Barcelona, Spain). Marie Curie Fellow. 
+\tabto{12cm} Host: Ricard Sol{\'e}
+
+2022--2023 \sbigtab University of Tokyo, Universal Biology Institute. Project Researcher. \tabto{12cm}  PI: Sosuke Ito
+
+2015--2021 \sbigtab Santa Fe Institute (Santa Fe, USA). Program Postdoctoral Fellow. \tabto{12cm}  PI: David H. Wolpert
+
+2014 \sbigtab LinkedIn Corporation, Data Science Research Intern. 
+
+2009--2010\sbigtab Instituto Gulbenkian de Ciência (Oeiras, Portugal). Predoctoral Visiting Researcher. 
+
+
+\section{\textsc{Affiliations}}
+
+2024 -- \sbigtab Barcelona Collaboratorium for Modelling and Predictive Biology. Associated fellow.
+
+2023 -- \sbigtab University of Tokyo, Universal Biology Institute. Affiliated researcher.
+
+
+\section{\textsc{Education}}
+
+2015 \; Indiana University. Ph.D. in Informatics (Complex Systems focus), Minor in Cognitive Science \\% , Minor in Cognitive Science
+\tabto{1cm} Thesis: ``Measuring scales: integration and modularity in complex systems''. \tabto{12cm}  Advisor: Luis M. Rocha
+% Committee: Luis\,M.\,Rocha\,(chair), Yong-Yeol\,Ahn, Randall\,Beer, Alessandro\,Flammini, Olaf\,Sporns
+
+2004 \; {New York University}, B.A. \emph{Magna Cum Laude} % (Individualized Study % (concentration in Complex Systems)
+
+%\vspace{10pt}
+
+
+
+% \section{\textsc{Research Funding, Fellowships \& Awards}}
+
+% \subsection*{External Research Funding}
+
+% 2023 \yeartab John Templeton Foundation (\#62828), \$947,926, Co-PI\\
+% \yeartab ``Goal-directed behavior and the origin of life''
+
+% 2022 \yeartab John Templeton Foundation (\#62417), \$627,227, Co-PI\\
+% \yeartab ``Information architectures that enable life: the emergence of meaning''
+
+% 2022 \yeartab Marie Skłodowska-Curie Actions Individual Fellowship 
+% (HORIZON-MSCA-2021-PF-01, \#101068029)\\
+% \yeartab ``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
+
+% 2019 \yeartab Foundational Questions Institute (FQXi-RFP-IPW-1912), \$118,100,
+% Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``The role of constraints in the thermodynamics of intelligence'' 
+
+% 2016 \yeartab NSF INSPIRE (CHE-1648973), \$999,947,
+% Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``Tradeoffs in the thermodynamics of computation: a new paradigm for biological information-processing''
+
+% 2016 \yeartab NSF (1620462), \$770,000,
+% Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``Information Networks and the Evolution of Social Organizations''
+
+% 2016 \yeartab Foundational Questions Institute (FQXi-RFP-1622), \$128,319,
+% Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``Observers as self-maintaining non-equilibrium systems''
+
+% \subsection*{Fellowships and Awards}
+
+% 2008--2009 \yeartab Lilly Fellowship in Informatics, Indiana University\\
+% \yeartab Competitive doctoral fellowship funded by the Eli Lilly \& Company Foundation
+
+
+
+% 6/2023--Present \bigtab \textbf{Universitat Pompeu Fabra} (Barcelona, Spain)\\
+% \bigtab Marie Skłodowska-Curie Postdoctoral Fellow (Host: Ricard Sol{\'e})
+
+% 1/2022--5/2023\bigtab \textbf{University of Tokyo} (Tokyo, Japan) \\
+% \bigtab Project Researcher at the Universal Biology Institute (Research supervisor: Sosuke Ito)
+
+% 12/2015--7/2021 \bigtab  \textbf{Santa Fe Institute} (Santa Fe, NM, USA) \\
+% \bigtab Program Postdoctoral Fellow (Research supervisor: David H. Wolpert)
+
+% 9/2009--8/2010\bigtab \textbf{Instituto Gulbenkian de Ciencia} (Oeiras, Portugal)\\
+% %2008-2012 (summers) 
+% \bigtab 
+% Predoctoral Visiting Researcher (Research supervisor: Luis M. Rocha)
 
 % \textbf{Instituto Gulbenkian de Ciência} (Oeiras, Portugal), 2009-2010 and summer 2008/2011/2012 \\
 % Visiting researcher at FLAD Computational Biology Collaboratorium
@@ -145,10 +231,10 @@ Predoctoral Visiting Researcher (Research supervisor: Luis M. Rocha)
 %\item \textbf{Freelance programmer}, Developed a variety of database-backed
 %web applications. 1998-2007.
 
-\section{\textsc{Industry}}
+% \section{\textsc{Industry}}
 
-Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
-\bigtab Data science internship
+% Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
+% \bigtab Data science internship
 
 % \vspace{-10pt} 
 % \begin{tabbing}
@@ -158,10 +244,66 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 % \end{tabbing}
 % \vspace{-\baselineskip} 
 
-%\vspace{10pt}
 
 
-\section{\textsc{Publications}}
+
+% \section{\textsc{Selected publications by area}
+% \\\vspace{15pt}{\normalfont\small $^*$\;Equal\\
+% \;\;\;contribution \\\vspace{5pt}$^\dagger$\;Corresponding\\\;\;\;author}
+% }
+% {
+% \newcommand{\pdflink}[1]{\href{https://artemyk.github.io/assets/pdf/papers/#1.pdf}{pdf}}
+% \newcommand{\publink}[1]{\href{#1}{link}}
+% \newcommand{\CA}{$^\dagger$}
+%   \setlength{\parskip}{3pt}
+
+
+% \textbf{Nonequilibrium thermodynamics}
+
+% \textbf{A. Kolchinsky}\CA, A. Dechant, K. Yoshimura, S. Ito, ``Generalized free energy and excess/housekeeping decomposition in nonequilibrium systems: from large deviations to thermodynamic speed limits'', \emph{Physical Review Research}, 8, 023025 (2026). \pdflink{Kolchinsky-et-al-GeneralizedFreeEnergy-2026} \publink{https://doi.org/10.1103/r48t-dghl}
+
+% N. Ohga, S. Ito, \textbf{A. Kolchinsky}, ``Thermodynamic bound on the asymmetry of cross-correlations'', \emph{Physical Review Letters} 131, 077101 (2023). \pdflink{Ohga_Ito_Kolchinsky_2023_ThermodynamicBoundOnTheAsymmetryOfCrossCorrelations} \publink{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.077101} (\emph{Editors' Suggestion}; \emph{Featured in \href{https://physics.aps.org/articles/v16/142}{Physics}})
+
+% \textbf{A. Kolchinsky}\CA and D.H. Wolpert, ``Work, entropy production, and thermodynamics of information under protocol constraints'', \emph{Physical Review X} 11, 041024 (2021). \pdflink{Kolchinsky_Wolpert_2021_PRX_Constraints} \publink{https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.041024} % 10.1103/PhysRevX.11.041024
+
+% \textbf{A. Kolchinsky} and D.H. Wolpert, ``Thermodynamic costs of Turing machines'', \emph{Physical Review Research} 2, 033312 (2020). \pdflink{Kolchinsky_Wolpert_2020_Thermodynamic costs of Turing machines} \publink{https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.033312}  % 2(3), 033312,  August 2020
+
+
+% \vspace{10pt}
+
+% \textbf{Theoretical biology and origin of life}
+
+% J. Bauermann, G. Bartolucci, \textbf{A. Kolchinsky}, ``Spatiotemporal organization of chemical oscillators via phase separation'', \emph{Physical Review Letters}, 136, 178001 (2026).\pdflink{BauermannBartolucciKolchinsky-SpatiotemporalOrganizationsOfChemicalOscillatorsViaPhaseSeparation} \publink{https://doi.org/10.1103/shz6-7fj9} % \href{https://arxiv.org/abs/2507.16030}{arXiv:2507.16030} 
+
+% J. Piñero$^*$, \textbf{A. Kolchinsky}$^*$, S. Redner, R. Solé, ``Neutral theory of cooperative dynamics'', \emph{Proceedings of the National Academy of Sciences}, 122, 51 (2025). \pdflink{Pinero-et-al-2025-Neutral-theory-of-cooperative-dynamics} \publink{https://www.pnas.org/doi/abs/10.1073/pnas.2515423122} % \href{https://arxiv.org/abs/2506.09737}{arxiv} 
+
+% J. Piñero, D. R. Sowinski, G. Ghoshal, A. Frank, \textbf{A. Kolchinsky}\CA, ``Information bounds production in replicator systems'', \emph{Communications Physics}, 9, 120 (2026). \pdflink{Pinero-et-al-InformationBoundsProductionInReplicatorSystems} \publink{https://www.nature.com/articles/s42005-026-02527-5}
+
+% \textbf{A. Kolchinsky}, ``Thermodynamics of Darwinian evolution in molecular replicators'', \emph{Philosophical Transactions of the Royal Society B} 380,20240436 (2025). \pdflink{Kolchinsky-2025-ThermodynamicsOfDarwinianSelection} \publink{https://royalsocietypublishing.org/doi/epdf/10.1098/rstb.2024.0436}
+
+% S. Bartlett, A. W. Eckford, M. Egbert, M. Lingam, \textbf{A. Kolchinsky}\CA, A. Frank\CA, G. Ghoshal\CA, ``The Physics of Life: Exploring Information as a Distinctive Feature of Living Systems'', \emph{PRX Life} 3, 037003 (2025). \pdflink{Bartlett_et_al_PRXLife2025} \publink{https://journals.aps.org/prxlife/abstract/10.1103/rsx4-8x5f}  %\href{https://arxiv.org/abs/2501.08683}{arxiv}
+
+% \vspace{10pt}
+
+% \textbf{Information theory for complex systems}
+
+% M. Aguilera$^*$\CA, S. Ito, \textbf{A. Kolchinsky}$^*$\CA, ``Inferring entropy production in many-body systems using nonequilibrium maximum entropy'', \emph{Physical Review Letters}, 136, 077101 (2026). \pdflink{AguileraItoKolchinsky_InferringEntropyProduction_PRL_2026} \publink{https://journals.aps.org/prl/abstract/10.1103/xgkj-dxzh}
+
+% \textbf{A. Kolchinsky}, ``A novel approach to the partial information decomposition'', \emph{Entropy} 24(3), 403 (2022). \pdflink{Kolchinsky_2022_Novel_Approach_to_the_PID} \href{https://github.com/artemyk/redundancy}{code} \publink{https://www.mdpi.com/1099-4300/24/3/403} % 10.3390/e24030403
+
+% \textbf{A. Kolchinsky}\CA, B.D. Tracey, D.H. Wolpert, ``Nonlinear information bottleneck'', \emph{Entropy} 21(12), 1181 (2019). (\href{https://www.mdpi.com/journal/entropy/awards/1209}{{\emph{Entropy} 2021 Best Paper Award}}) \pdflink{Kolchinsky et al_2019_Nonlinear information bottleneck} \href{https://github.com/artemyk/nonlinearIB}{code} \publink{https://www.mdpi.com/1099-4300/21/12/1181} % 10.3390/e21121181
+
+% \textbf{A. Kolchinsky}\CA, B.D. Tracey, S. Van Kuyk, ``Caveats for information bottleneck in deterministic scenarios'', \emph{ICLR} (2019). \pdflink{Kolchinsky et al_2019_Caveats for information bottleneck in deterministic scenarios} \href{https://github.com/artemyk/ibcurve}{code} \publink{https://openreview.net/forum?id=rke4HiAcY7}
+
+% \textbf{A. Kolchinsky}\CA and D.H. Wolpert, ``Semantic information, autonomous agency, and nonequilibrium statistical physics'', \emph{Royal Society Interface Focus} 8, 20180041 (2018). \pdflink{Kolchinsky_Wolpert_2018_Semantic information, autonomous agency and non-equilibrium statistical physics} \href{https://github.com/artemyk/semantic_information/}{code} \publink{https://royalsocietypublishing.org/doi/full/10.1098/rsfs.2018.0041} % 10.1098/rsfs.2018.0041
+
+% }
+
+
+\section{\textsc{Publications}
+%\\\vspace{5pt}{\normalfont\small $^*$\;Equal\\\vspace{-2pt}
+%\;\;\;contribution \\\vspace{5pt}$^\dagger$\;Corresponding\\\vspace{-2pt}\;\;\;author}
+}
 {
   \setlength{\parskip}{3pt}
   \input{pubs}
@@ -174,143 +316,184 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 \input{preprints}
 }
 
+
+\section{\textsc{Awards \& Funding}}
+
+\minorhead{Fellowships and awards}
+\vspace{3pt}
+
+\rldate{2026} \yeartab Ramón y Cajal Fellowship (RYC 2025), provisionally selected.
+\yeartab Spanish State Research Agency (AEI)
+
+\rldate{2022} \yeartab Marie Skłodowska-Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01, \#101068029)\\
+\yeartab ``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
+
+\rldate{2008--} \yeartab Lilly Fellowship in Informatics (competitive doctoral fellowship)\\
+\rldate{2009} \yeartab Indiana University, funded by the Eli Lilly \& Company Foundation
+
+\vspace{5pt}
+\minorhead{Research funding}
+
+\vspace{3pt}
+
+\rldate{2023} \yeartab John Templeton Foundation (\#62828), \$947,926 total award, Co-PI\\
+\yeartab ``Goal-directed behavior and the origin of life''
+
+\rldate{2022} \yeartab John Templeton Foundation (\#62417), \$627,227 total award, Co-PI\\
+\yeartab ``Information architectures that enable life: the emergence of meaning''
+
+\rldate{2019} \yeartab Foundational Questions Institute (FQXi-RFP-IPW-1912), \$118,100, Co-investigator (PI: David H. Wolpert)\\
+\yeartab ``The role of constraints in the thermodynamics of intelligence''
+
+\rldate{2016} \yeartab Foundational Questions Institute (FQXi-RFP-1622), \$128,319, Co-investigator (PI: David H. Wolpert)\\
+\yeartab ``Observers as self-maintaining non-equilibrium systems''
+
+\rldate{2016} \yeartab NSF INSPIRE (CHE-1648973), \$999,947, Co-investigator (PI: David H. Wolpert)\\
+\yeartab ``Tradeoffs in the thermodynamics of computation: a new paradigm for biological information-processing''
+
+\rldate{2016} \yeartab NSF (1620462), \$770,000, Co-investigator (PI: David H. Wolpert)\\
+\yeartab ``Information Networks and the Evolution of Social Organizations''
+
+
+
 \section{\textsc{Invited\\Talks}}
+
 
 {\setlength{\parskip}{2pt}  
 
-05/2026 \talktab  \emph{Workshop on Stochastic Thermodynamics VII} (online)
+\rldate{5/2026} \talktab  \emph{Workshop on Stochastic Thermodynamics VII} (online)
 % Thermodynamic bounds on oscillator coherence and response
 
-03/2026 \talktab \emph{Seminar series}, Instituto de Física Interdisciplinar y Sistemas Complejos (IFISC), Mallorca, Spain
+\rldate{3/2026} \talktab \emph{Seminar series}, Instituto de Física Interdisciplinar y Sistemas Complejos (IFISC), Mallorca, Spain
 % Thermodynamic constraints on correlations and oscillations in nonequilibrium systems
 
 
-11/2025 \talktab  \emph{Kyoto Workshop on Quantum Thermodynamics \& Stochastic Thermodynamics}, Kyoto University, Japan
+\rldate{11/2025} \talktab  \emph{Kyoto Workshop on Quantum Thermodynamics \& Stochastic Thermodynamics}, Kyoto University, Japan
 
-10/2025 \talktab \emph{Autocatalysis in Reaction Networks Seminar (ARN)} (online)
+\rldate{10/2025} \talktab \emph{Autocatalysis in Reaction Networks Seminar (ARN)} (online)
 
-9/2025 \talktab \emph{ILIAD2: ODYSSEY, conference on mathematical alignment}, Berkeley, CA, USA
+\rldate{9/2025} \talktab \emph{ILIAD2: ODYSSEY, conference on mathematical alignment}, Berkeley, CA, USA
 
-6/2025 \talktab \emph{CRC Colloquium}, Free University of Berlin, Berlin, Germany
+\rldate{6/2025} \talktab \emph{CRC Colloquium}, Free University of Berlin, Berlin, Germany
 %\\
 %``Generalized free energy and excess entropy production for nonequilibrium systems''
 
-5/2025 \talktab \emph{Joint European Thermodynamics Conference}, Belgrade, Serbia
+\rldate{5/2025} \talktab \emph{Joint European Thermodynamics Conference}, Belgrade, Serbia
 %\\
 %``Thermodynamic inference of cycle affinities: cross-correlation asymmetry and beyond''
 
-11/2024 \talktab \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan
+\rldate{11/2024} \talktab \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan
 %\\
 %``Information bounds on production in replicator systems''
 
-9/2024 \talktab \emph{Information in Matter Colloquium}, AMOLF, Amsterdam, Netherlands
+\rldate{9/2024} \talktab \emph{Information in Matter Colloquium}, AMOLF, Amsterdam, Netherlands
 %\\
 %``Generalized free energy for genuine nonequilibrium systems''
 
-7/2024 \talktab \emph{Physics Department Seminar}, University of Barcelona, Barcelona, Spain
+\rldate{7/2024} \talktab \emph{Physics Department Seminar}, University of Barcelona, Barcelona, Spain
 %\\
 %``Thermodynamic Bound on the Asymmetry of Cross-Correlations''
 
-2/2024 \talktab \emph{Seminar}, Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona, Spain
+\rldate{2/2024} \talktab \emph{Seminar}, Barcelona Collaboratorium for Modelling and Predictive Biology, Barcelona, Spain
 %\\
 %``Stochastic thermodynamics: promises and challenges for studying living systems''
 
-11/2023 \talktab \emph{Mini-workshop: Non-equilibrium thermodynamics and biology}, Biofiska Institute, Bilbao, Spain
+\rldate{11/2023} \talktab \emph{Mini-workshop: Non-equilibrium thermodynamics and biology}, Biofiska Institute, Bilbao, Spain
 %\\
 %``Stochastic thermodynamics: promises and limitations for studying living matter''
 
-11/2023 \talktab \emph{Seminar}, Basque Center for Applied Mathematics, Bilbao, Spain
+\rldate{11/2023} \talktab \emph{Seminar}, Basque Center for Applied Mathematics, Bilbao, Spain
 %\\
 %``Nonequilibrium thermodynamics, cross-correlations, and the isoperimetric inequality''
 
-7/2023 \talktab \emph{Information Engines at the Frontiers of Nanoscale Thermodynamics}, Telluride, CO, USA
+\rldate{7/2023} \talktab \emph{Information Engines at the Frontiers of Nanoscale Thermodynamics}, Telluride, CO, USA
 %\\
 %``Information geometry for nonequilibrium processes''
 
-6/2023 \talktab  \emph{Webinar: Mathematics, Physics \& Machine Learning}, Instituto Superior Técnico, Lisbon, Portugal
+\rldate{6/2023} \talktab  \emph{Webinar: Mathematics, Physics \& Machine Learning}, Instituto Superior Técnico, Lisbon, Portugal
 %\\
 %``Information geometry for nonequilibrium processes'' (virtual)
 
-6/2023 \talktab  \emph{Conference: Decomposing Multivariate Information in Complex Systems}\\
+\rldate{6/2023} \talktab  \emph{Conference: Decomposing Multivariate Information in Complex Systems}\\
 %\nextlinetab 
 \talktab Max Planck Institute for the Physics of Complex Systems, Dresden, Germany
 %\\
 %``A Novel Approach to the Partial Information Decomposition''
 
-9/2022 \talktab  \emph{Seminar}, Dutch Institute of Emergent Phenomena, University of Amsterdam, Netherlands
+\rldate{9/2022} \talktab  \emph{Seminar}, Dutch Institute of Emergent Phenomena, University of Amsterdam, Netherlands
 %\\
 %``Information geometry of fluxes and forces in nonequilibrium thermodynamics'' (virtual)
 
-8/2022 \talktab  \emph{Seminar}, Earth-Life Science Institute (ELSI), Tokyo, Japan
+\rldate{8/2022} \talktab  \emph{Seminar}, Earth-Life Science Institute (ELSI), Tokyo, Japan
 %\\
 %``Thermodynamics of Darwinian evolution in molecular replicators''
 
-6/2022 \talktab  \emph{Evolution of complexity from the statistical physics perspective}, Yerevan Physics Institute, Armenia
+\rldate{6/2022} \talktab  \emph{Evolution of complexity from the statistical physics perspective}, Yerevan Physics Institute, Armenia
 %\\
 %``Thermodynamics of Darwinian evolution'' (virtual)
 
-6/2022 \talktab  \emph{Yagami Statistical Physics Seminar}, Keio University, Japan
+\rldate{6/2022} \talktab  \emph{Yagami Statistical Physics Seminar}, Keio University, Japan
 %\\
 %``Thermodynamics under protocol constraints'' (virtual)
 
-5/2022 \talktab  \emph{Workshop on Stochastic Thermodynamics III} (online)
+\rldate{5/2022} \talktab  \emph{Workshop on Stochastic Thermodynamics III} (online)
 %, University of Tokyo, Japan
 %\\
 %``The algorithmic cost of a single classical or quantum computation'' (virtual) % Invited
 
-4/2022 \talktab  \emph{Cross Labs Workshop: Is AI Extending the Mind?}, Cross Labs, Japan
+\rldate{4/2022} \talktab  \emph{Cross Labs Workshop: Is AI Extending the Mind?}, Cross Labs, Japan
 %\\
 %``Autonomous agents and semantic information'' (virtual) % Invited
 
-2/2022 \talktab  \emph{Physics Department Colloquium Series}, University of Rochester, NY, USA
+\rldate{2/2022} \talktab  \emph{Physics Department Colloquium Series}, University of Rochester, NY, USA
 %\\
 %``A thermodynamic threshold for Darwinian evolution'' (virtual) % Invited
 
-12/2021 \talktab  \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan
+\rldate{12/2021} \talktab  \emph{Universal Biology Institute Seminar Series}, University of Tokyo, Japan
 %\\
 %``A thermodynamic threshold for Darwinian evolution'' (virtual) % Invited
 
-2/2021 \talktab  \emph{Workshop: Origins of Life: The Possible and the Actual}, Santa Fe Institute, NM, USA
+\rldate{2/2021} \talktab  \emph{Workshop: Origins of Life: The Possible and the Actual}, Santa Fe Institute, NM, USA
 %\\
 %``Fundamental thermodynamic constraints and trade-offs in origin of life'' %Invited
 
-7/2020 \talktab  \emph{ICTP Seminar Series}, Abdus Salam International Center for Theoretical Physics, Trieste, Italy
+\rldate{7/2020} \talktab  \emph{ICTP Seminar Series}, Abdus Salam International Center for Theoretical Physics, Trieste, Italy
 %\\
 %``Bounds on entropy production and thermodynamics of information under protocol constraints'' (virtual) % Invited
 
-5/2020 \talktab  \emph{Workshop on Stochastic Thermodynamics I} (online)
+\rldate{5/2020} \talktab  \emph{Workshop on Stochastic Thermodynamics I} (online)
 % , Complexity Science Hub, Vienna, Austria
 % Bounds on thermodynamic efficiency of physical processes with driving constraints
 
-2/2020 \talktab  \emph{AI Seminar Series}, Information Sciences Institute, Los Angeles, CA, USA
+\rldate{2/2020} \talktab  \emph{AI Seminar Series}, Information Sciences Institute, Los Angeles, CA, USA
 %\\
 %``Machine Learning through the information bottleneck'' % Invited
 
-7/2019 \talktab  \emph{ISTI Seminar Series}, Los Alamos National Lab, Los Alamos, NM, USA
+\rldate{7/2019} \talktab  \emph{ISTI Seminar Series}, Los Alamos National Lab, Los Alamos, NM, USA
 %\\
 %``Machine Learning through the information bottleneck''  % Invited
 
-6/2018 \talktab  \emph{Connectomics Lecture Series}, Universidad Diego Portales, Santiago, Chile
+\rldate{6/2018} \talktab  \emph{Connectomics Lecture Series}, Universidad Diego Portales, Santiago, Chile
 %\\
 %``Machine learning, deep neural networks, and the brain''  % Invited
 
-4/2018 \talktab  \emph{Meeting of the Society for the Neural Control of Movement}, Santa Fe, NM, USA
+\rldate{4/2018} \talktab  \emph{Meeting of the Society for the Neural Control of Movement}, Santa Fe, NM, USA
 %\\
 %``Machine learning, deep neural networks, and the brain''
 
-11/2017 \talktab  Seoul National University, South Korea
+\rldate{11/2017} \talktab  Seoul National University, South Korea
 %\\
 %``Science at the Santa Fe Institute'' (w/ V. Ferdinand) % Invited
 
-8/2017 \talktab  \emph{Workshop: Thermodynamics \& Computation: Towards a New Synthesis}, Santa Fe Institute, NM, USA
+\rldate{8/2017} \talktab  \emph{Workshop: Thermodynamics \& Computation: Towards a New Synthesis}, Santa Fe Institute, NM, USA
 %\\
 %``Statistical physics of Turing Machines'' % Invited
 
-10/2016 \talktab \emph{Statistical Physics, Information Processing and Biology}, Santa Fe Institute, NM, USA
+\rldate{10/2016} \talktab \emph{Statistical Physics, Information Processing and Biology}, Santa Fe Institute, NM, USA
 %\\
 %``Dependence of dissipation on the initial distribution'' % Invited.
 
-2/2016 \talktab Information Sciences Institute, Los Angeles, CA, USA
+\rldate{2/2016} \talktab Information Sciences Institute, Los Angeles, CA, USA
 %\\
 %``Multi-scale integration \& modularity in complex systems'' % Invited
 % Video : http://webcastermshd.isi.edu/Mediasite/Play/f413ecae075e40eaa3f6b51123178b791d
@@ -412,42 +595,42 @@ Summer 2014 \bigtab \textbf{LinkedIn Corporation} (Mountain View, CA, USA)\\
 % %China), 2012.
 
 
-\section{\textsc{Awards \& Fellowships}}
-%\item Honorable Mention Paper by a Contributing Student, Conference on Complex Systems 2015, Tempe, AZ
-% 2010-2015 - Affiliate of IGERT training program in ``Dynamics of brain-body-environment interaction in behavior and cognition'' 
-2022 \yeartab Marie Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01, \#101068029)\\
-\yeartab ``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
+% \section{\textsc{Awards \& Fellowships}}
+% %\item Honorable Mention Paper by a Contributing Student, Conference on Complex Systems 2015, Tempe, AZ
+% % 2010-2015 - Affiliate of IGERT training program in ``Dynamics of brain-body-environment interaction in behavior and cognition'' 
+% 2022 \yeartab Marie Curie Individual Fellowship (HORIZON-MSCA-2021-PF-01, \#101068029)\\
+% \yeartab ``NETOLIFE: Nonequilibrium thermodynamics of the origin of life''
 
-2008– \yeartab 
-Lilly Fellowship in Informatics (competitive doctoral fellowship)\\
-\smalltab 2009 \yeartab  Indiana University, funded by the Eli Lilly \& Company Foundation
+% 2008– \yeartab 
+% Lilly Fellowship in Informatics (competitive doctoral fellowship)\\
+% \smalltab 2009 \yeartab  Indiana University, funded by the Eli Lilly \& Company Foundation
 
 
-% 2012 - 2013 - Lilly Graduate Fellowship, Biocomplexity Institute, Indiana University, Bloomington, IN
+% % 2012 - 2013 - Lilly Graduate Fellowship, Biocomplexity Institute, Indiana University, Bloomington, IN
 
-% 2007 - 2009 - Eli Lilly Fellowship, Indiana University, Bloomington, IN, 
+% % 2007 - 2009 - Eli Lilly Fellowship, Indiana University, Bloomington, IN, 
 
-% 2004 - Dean's List Gallatin School, New York University, NY
+% % 2004 - Dean's List Gallatin School, New York University, NY
 
-\section{\textsc{Grants}}
+% \section{\textsc{Grants}}
 
-2023 \yeartab John Templeton Foundation (\#62828), \$947,926, Co-PI\\
-\yeartab ``Goal-directed behavior and the origin of life''
+% 2023 \yeartab John Templeton Foundation (\#62828), \$947,926, Co-PI\\
+% \yeartab ``Goal-directed behavior and the origin of life''
 
-2022 \yeartab John Templeton Foundation (\#62417), \$627,227, Co-PI\\
-\yeartab ``Information architectures that enable life: the emergence of meaning''
+% 2022 \yeartab John Templeton Foundation (\#62417), \$627,227, Co-PI\\
+% \yeartab ``Information architectures that enable life: the emergence of meaning''
 
-2019 \yeartab Foundational Questions Institute (FQXi-RFP-IPW-1912),  \$118,100, Co-investigator (PI: David H. Wolpert)\\
-\yeartab ``The role of constraints in the thermodynamics of intelligence'' 
+% 2019 \yeartab Foundational Questions Institute (FQXi-RFP-IPW-1912),  \$118,100, Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``The role of constraints in the thermodynamics of intelligence'' 
 
-2016 \yeartab Foundational Questions Institute (FQXi-RFP-1622), \$128,319, Co-investigator (PI: David H. Wolpert)\\
-\yeartab ``Observers as self-maintaining non-equilibrium systems''
+% 2016 \yeartab Foundational Questions Institute (FQXi-RFP-1622), \$128,319, Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``Observers as self-maintaining non-equilibrium systems''
 
-2016 \yeartab NSF INSPIRE (CHE-1648973), \$999,947, Co-investigator (PI: David H. Wolpert)\\
-\yeartab \!``Tradeoffs in the thermodynamics of computation:\! a new paradigm for biological information-processing''
+% 2016 \yeartab NSF INSPIRE (CHE-1648973), \$999,947, Co-investigator (PI: David H. Wolpert)\\
+% \yeartab \!``Tradeoffs in the thermodynamics of computation:\! a new paradigm for biological information-processing''
 
-2016 \yeartab NSF (1620462), \$770,000, Co-investigator (PI: David H. Wolpert)\\
-\yeartab ``Information Networks and the Evolution of Social Organizations'' 
+% 2016 \yeartab NSF (1620462), \$770,000, Co-investigator (PI: David H. Wolpert)\\
+% \yeartab ``Information Networks and the Evolution of Social Organizations'' 
 
 
 \section{\textsc{Popular science \& outreach}}
@@ -462,7 +645,7 @@ Lilly Fellowship in Informatics (competitive doctoral fellowship)\\
 
 % Could mention podcast appearances: SFI and Metamodern podcast
 
-4/2018 \talktab  \emph{SITE Santa Fe} (contemporary art museum), Santa Fe, NM, USA\\
+\rldate{4/2018} \talktab  \emph{SITE Santa Fe} (contemporary art museum), Santa Fe, NM, USA\\
 \talktab Public talk on ``Life, entropy, and the $2^{{nd}}$ law of thermodynamics''
 
 
@@ -470,7 +653,7 @@ Lilly Fellowship in Informatics (competitive doctoral fellowship)\\
 
 \minorhead{Online courses}
 
-2018 \talktab ``Fundamentals of machine learning'' (w/ B.D. Tracey), Santa Fe Institute \emph{Complexity Explorer} \\
+\rldate{2018} \talktab ``Fundamentals of machine learning'' (w/ B.D. Tracey), Santa Fe Institute \emph{Complexity Explorer} \\
 \talktab Designed and delivered a 12-part online course on basics of machine learning {(}\href{https://www.complexityexplorer.org/courses/81-fundamentals-of-machine-learning}{link}{)}
 
 \vspace{5pt}
@@ -478,23 +661,21 @@ Lilly Fellowship in Informatics (competitive doctoral fellowship)\\
 
 \minorhead{Workshops, lectures, and tutorials}
 
-6/2019 \talktab Santa Fe Institute Complex Systems Summer School, NM, USA\\
-\talktab Two-part lecture series on machine learning and its research frontiers
+\rldate{6/2019} \talktab Santa Fe Institute Complex Systems Summer School\\
+\talktab Two-part lecture series on machine learning 
 
-3/2019 \talktab Santa Fe Institute, NM, USA\\
-\talktab Tutorial on ``Machine learning with TensorFlow''
+\rldate{3/2019} \talktab Santa Fe Institute. Tutorial on ``Machine learning with TensorFlow''
 
-6/2017, \talktab Santa Fe Institute, NM, USA\\
-\;\;6/2018 \talktab Tutorial on introduction to programming and data analysis in Python (w/ V. Ferdinand)
+\rldate{6/2017,} \talktab Santa Fe Institute. Co-ran tutorial on Python programming and data analysis \\
+\rldate{6/2018}
 
-11/2017 \talktab Seoul National University, Seoul, South Korea \\
-\talktab Week-long workshop organized w/ V. Ferdinand
+\rldate{11/2017} \talktab Seoul National University, South Korea. Co-organized week-long workshop 
 \talktab ``Thermodynamics, evolution, and inference through the lens of information theory'' 
 
-11/2017 \talktab ACtioN/Trustee Meeting, Santa Fe Institute, NM, USA\\
+\rldate{11/2017} \talktab ACtioN/Trustee Meeting, Santa Fe Institute\\
 \talktab Lecture on ``Machine learning: A guide for the perplexed'' (w/ B. D. Tracey)
 
-5/2010 \talktab Instituto Gulbenkian de Ciência, Oeiras, Portugal\\
+\rldate{5/2010} \talktab Instituto Gulbenkian de Ciência, Oeiras, Portugal\\
 \talktab Assisted with week-long ``Bayesian brain'' educational module
 
 \vspace{5pt}
@@ -516,37 +697,22 @@ Fall 2008-- \bigtab ``I210 Information Infrastructure'' (various instructors)\\
 
 \minorhead{PhD dissertation committees}
 
-2025 \yeartab \emph{André Gomes}, PhD, Electrical \& Computer Engineering, Instituto Superior Técnico, Lisbon, Portugal\\
+\rldate{2025} \yeartab \emph{André Gomes}, PhD, Electrical \& Computer Engineering, Instituto Superior Técnico, Lisbon, Portugal\\
 \yeartab Thesis: ``Advances in Partial Information Decomposition''
 
 \vspace{5pt}
 \minorhead{Undergraduate projects supervised}
 
-2018 \yeartab \emph{Nicolas Freitas}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
+\rldate{2018} \yeartab \emph{Nicolas Freitas}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
 \yeartab Project: ``Scaling of information in biochemical systems''
 
-2017 \yeartab \emph{Francis Cavanna}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
+\rldate{2017} \yeartab \emph{Francis Cavanna}, Santa Fe Institute Summer REU Program, Santa Fe, NM, USA \\
 %\hangindent=10pt Mentored a junior from University of Dallas during a summer project through Santa Fe Institute's Research Experiences for Undergraduates program.\\
 \yeartab Project: ``Investigating the relationship between criticality and Landauer costs using the Ising model''
 
 \section{\textsc{Academic\\service}}
 
-\minorhead{Reviewer}
-
-General: \emph{PNAS}, \emph{Nature Communications}, \emph{npj Complexity}, \emph{Interface Focus}\\
-Physics: \emph{PRL}, \emph{PRX}, \emph{PRX Quantum}, \emph{PRR}, \emph{PRE}, \emph{NJP}, \emph{Frontiers in Physics}, \emph{J of Physics A}, \emph{Physica A}, \emph{EPL}\\
-Biology: \emph{Proc R Soc B}, \emph{Phil Trans B}, \emph{PLoS Comp Bio}, \emph{Theory in the Biosciences}, \emph{BioSystems}\\
-Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE TPAMI}, \emph{Kybernetika}, \emph{Applied Sciences}
-
-\vspace{5pt}
-
-\minorhead{Guest editor}
-
-\emph{Entropy} special issue on ``Thermodynamics and Information Theory of Living Systems'' \href{https://www.mdpi.com/journal/entropy/special_issues/thermodynamics_living_systems}{link}
-
-\vspace{5pt}
-
-\minorhead{Grant Review Panels}
+\minorhead{Grant review panels}
 
 - European Research Council, Starting and Advanced Grant Panels\\
 - Interdisciplinary Assessment Board for Artificial Intelligence, Spanish Research Agency\\
@@ -563,26 +729,43 @@ Information theory and machine learning: \emph{Entropy}, \emph{ICLR}, \emph{IEEE
 
 \vspace{5pt}
 
-\minorhead{Conference Organization}
+\minorhead{Journal refereeing}
 
-12/2025 \talktab Kyoto Workshop on Quantum Thermodynamics and Stochastic Thermodynamics, co-organizer\\
+General: \emph{PNAS}, \emph{Nature Communications}, \emph{npj Complexity}, \emph{Interface Focus}\\
+Physics: \emph{PRL}, \emph{PRX}, \emph{PRX Quantum}, \emph{PRR}, \emph{PRE}, \emph{NJP}, \emph{Frontiers in Physics}, \emph{J of Physics A}, \emph{Physica A}, \emph{EPL}\\
+Biology: \emph{PLoS Comp Bio}, \emph{Proc R Soc B}, \emph{Phil Trans B}, \emph{Theory in the Biosciences}, \emph{BioSystems}\\
+Information theory and machine learning: \emph{NeurIPS}, \emph{ICLR}, \emph{IEEE TPAMI}, \emph{Entropy}, \emph{Kybernetika}, \emph{Applied Sciences}
+
+\vspace{5pt}
+
+\minorhead{Guest editor}
+
+\emph{Entropy} special issue on ``Thermodynamics and Information Theory of Living Systems'' \href{https://www.mdpi.com/journal/entropy/special_issues/thermodynamics_living_systems}{link}
+
+
+
+\vspace{5pt}
+
+\minorhead{Conference organization}
+
+\rldate{12/2025} \talktab Kyoto Workshop on Quantum Thermodynamics and Stochastic Thermodynamics, co-organizer\\
 \talktab Kyoto University, Japan (\href{https://indico.yukawa.kyoto-u.ac.jp/event/68/}{program})
 
-10/2024 \talktab Theoretical and Experimental Approaches to Goal-Directed Behavior, co-organizer\\
+\rldate{10/2024} \talktab Theoretical and Experimental Approaches to Goal-Directed Behavior, co-organizer\\
 \talktab Basque Center for Applied Mathematics, Bilbao, Spain (\href{https://www.bcamath.org/en/news-events/news/bcam-hosted-workshop-theoretical-and-experimental-approaches-goal-directed}{press})
 
-7/2024 \talktab Information-Driven States of Matter, co-organizer\\
+\rldate{7/2024} \talktab Information-Driven States of Matter, co-organizer\\
 \talktab University of Rochester, NY, USA (\href{https://artemyk.github.io/assets/pdf/papers/Program-InfoMatterWorkshop-2024.pdf}{program}) \href{https://bigthink.com/13-8/a-new-model-for-defining-life-across-the-universe/}{press}
 
 \vspace{5pt}
 
-\minorhead{Seminar Organization}
+\minorhead{Seminar organization}
 
-2023-- \talktab Co-organized ongoing ``Complex Systems Lab'' seminar series\\
-\talktab \href{https://barcelonacollaboratorium.com/}{Barcelona Collaboratorium for Modelling and Predictive Biology}, Barcelona, Spain
+\rldate{2023--\;} \talktab Co-organized ongoing ``Complex Systems Lab'' seminar series\\
+\rldate{2025}\talktab \href{https://barcelonacollaboratorium.com/}{Barcelona Collaboratorium for Modelling and Predictive Biology}, Barcelona, Spain
 
-2008-- \talktab Organized a weekly discussion group on complexity and cognitive science (\href{http://apophenia.wikidot.com/}{link})\\
-\smalltab 2013 \talktab Indiana University, Bloomington, IN, USA 
+\rldate{2008--\;} \talktab Organized a weekly discussion group on complexity and cognitive science (\href{http://apophenia.wikidot.com/}{link})\\
+\rldate{2013} \talktab Indiana University, Bloomington, IN, USA 
 %Co-organized discussion group about Friston's ``Free energy principle'', Instituto Gulbenkian de Ciencia, Oeiras, Portugal, Spring 2010\\
 %Volunteer organizer for Society for Psychology and Philosophy Conference, Indiana University, Bloomington, IN, 6/2009
 
