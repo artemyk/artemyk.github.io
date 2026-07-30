@@ -21,10 +21,10 @@ div.address { font-family: sans-serif; }
 {% include scholar_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; {% include cv_link.html %} &nbsp;&nbsp;\|&nbsp;&nbsp; <a href="https://github.com/artemyk">GitHub</a> 
 
 
-Welcome to my website! In my research, I use information theory and statistical mechanics to understand information processing in physical and biological complex systems. 
-<!---- For more details, see my [research](projects) page. -->
+I am currently a research scientist at [XOR Labs](https://xorlabs.org/). I am interested in fundamental bounds on information processing, learning, and agency in artificial and biological complex systems. 
 
-I am currently at the [Universitat Pompeu Fabra](http://www.upf.edu). Prior to this, I spent several years as a postdoc at the [Santa Fe Institute](https://santafe.edu/), as well as a year at the [Universal Biology Institute](http://park.itc.u-tokyo.ac.jp/UBI/index_e.html), a theoretical biology group at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/). 
+
+Previously, I held postdoctoral positions at the [Santa Fe Institute](https://santafe.edu/), the [Universal Biology Institute](http://park.itc.u-tokyo.ac.jp/UBI/index_e.html) at the [University of Tokyo](https://www.u-tokyo.ac.jp/en/), and [Pompeu Fabra University](https://www.upf.edu/). 
 
 
 For a complete list of publications and preprints, see my  {% include scholar_link.html %} page or download my {% include cv_link.html %}. 
