@@ -84,6 +84,8 @@ $ pip install jupyter
 $ bundle exec jekyll serve --lsi
 ```
 
+Responsive images require ImageMagick's `convert` command with WebP support. On Ubuntu, install it with `sudo apt-get install imagemagick` and verify it with `convert -version`. The site-building GitHub Actions workflows install this dependency explicitly and check that the responsive headshot files were generated; the image plugin otherwise logs conversion errors without failing the build.
+
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
 
 ## Deployment

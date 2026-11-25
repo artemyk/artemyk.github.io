@@ -35,12 +35,27 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Install ImageMagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          convert -version
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           npm install -g mermaid.cli
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Verify responsive images
+        # jekyll-imagemagick logs conversion errors without failing the build.
+        run: |
+          for width in 480 800 1400; do
+            image="_site/assets/img/headshot3-${width}.webp"
+            if [ ! -s "$image" ]; then
+              echo "::error::Missing responsive image: $image"
+              exit 1
+            fi
+          done
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
